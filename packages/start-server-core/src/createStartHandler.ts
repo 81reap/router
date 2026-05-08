@@ -1,5 +1,6 @@
 import { createMemoryHistory } from '@tanstack/history'
 import {
+  clientEntryScriptFilter,
   createNullProtoObject,
   flattenMiddlewares,
   mergeHeaders,
@@ -732,6 +733,7 @@ export function createStartHandler<TRegister = Register>(
           origin: router.options.origin ?? origin,
           ...{
             defaultSsr: requestStartOptions.defaultSsr,
+            scriptFilter: router.options.scriptFilter ?? clientEntryScriptFilter,
             serializationAdapters: [
               ...requestStartOptions.serializationAdapters,
               ...(router.options.serializationAdapters || []),
