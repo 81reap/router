@@ -5,7 +5,7 @@ import { createRouterPluginContext } from './router-plugin-context'
 
 import type { GeneratorEvent } from '@tanstack/router-generator'
 import type { FSWatcher } from 'chokidar'
-import type { UnpluginFactory } from 'unplugin'
+import type { UnpluginContextMeta, UnpluginFactory } from 'unplugin'
 import type { Config } from './config'
 import type { RouterPluginContext } from './router-plugin-context'
 
@@ -14,6 +14,7 @@ const PLUGIN_NAME = 'unplugin:router-generator'
 export function createRouterGeneratorPlugin(
   options: Partial<Config | (() => Config)> | undefined = {},
   routerPluginContext: RouterPluginContext,
+  meta?: UnpluginContextMeta,
 ): ReturnType<UnpluginFactory<Partial<Config | (() => Config)> | undefined>> {
   let ROOT: string = process.cwd()
   let userConfig: Config
@@ -67,6 +68,23 @@ export function createRouterGeneratorPlugin(
     }
   }
 
+  // Bun lacks a pre-bundle config hook and unplugin's adapter does not
+  // forward `watchChange`, so init + dev watcher run from `buildStart`.
+  let bunWatcher: FSWatcher | null = null
+  const bunBuildStart = async () => {
+    initConfigAndGenerator()
+    await generate()
+
+    if (process.env.NODE_ENV === 'production' || bunWatcher) return
+
+    const chokidar = await import('chokidar')
+    bunWatcher = chokidar
+      .watch(getRoutesDirectoryPath(), { ignoreInitial: true })
+      .on('add', (file) => generate({ file, event: 'create' }))
+      .on('change', (file) => generate({ file, event: 'update' }))
+      .on('unlink', (file) => generate({ file, event: 'delete' }))
+  }
+
   return {
     name: 'tanstack:router-generator',
     enforce: 'pre',
@@ -76,6 +94,7 @@ export function createRouterGeneratorPlugin(
         event,
       })
     },
+    ...(meta?.framework === 'bun' && { buildStart: bunBuildStart }),
     vite: {
       async configResolved(config) {
         initConfigAndGenerator({ root: config.root })
@@ -152,6 +171,6 @@ export function createRouterGeneratorPlugin(
 
 export const unpluginRouterGeneratorFactory: UnpluginFactory<
   Partial<Config | (() => Config)> | undefined
-> = (options = {}) => {
-  return createRouterGeneratorPlugin(options, createRouterPluginContext())
+> = (options = {}, meta) => {
+  return createRouterGeneratorPlugin(options, createRouterPluginContext(), meta)
 }

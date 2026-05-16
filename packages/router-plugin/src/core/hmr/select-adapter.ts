@@ -1,3 +1,4 @@
+import { createBunHmrStatement } from './bun-adapter'
 import { createViteHmrStatement } from './vite-adapter'
 import { createWebpackHmrStatement } from './webpack-adapter'
 import type { Config, HmrStyle } from '../config'
@@ -23,6 +24,11 @@ export function createRouteHmrStatement(
   if (opts.hmrStyle === 'webpack') {
     return createWebpackHmrStatement(stableRouteOptionKeys, {
       targetFramework: opts.targetFramework,
+      routeId,
+    })
+  }
+  if (opts.hmrStyle === 'bun') {
+    return createBunHmrStatement(stableRouteOptionKeys, {
       routeId,
     })
   }

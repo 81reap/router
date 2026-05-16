@@ -72,15 +72,19 @@ export type CodeSplittingOptions = {
   addHmr?: boolean
 }
 
-export type HmrStyle = 'vite' | 'webpack'
+export type HmrStyle = 'vite' | 'webpack' | 'bun'
 
 export type HmrOptions = {
   /**
    * Selects the HMR runtime style to emit code for.
    * - `'vite'` (default): ESM `import.meta.hot` with Vite accept-callback semantics.
    * - `'webpack'`: `import.meta.webpackHot` with webpack / Rspack `module.hot` re-execution semantics.
+   * - `'bun'`: ESM `import.meta.hot` like Vite, but with all `import.meta.hot.data`
+   *   reads/writes inlined at the call site (Bun's bundler rejects indirect
+   *   `import.meta.hot.data` aliasing).
    *
-   * Bundler-specific plugin entries (e.g. `rspack.ts`, `webpack.ts`) set this explicitly.
+   * Bundler-specific plugin entries (e.g. `rspack.ts`, `webpack.ts`, `bun.ts`)
+   * set this explicitly.
    */
   style?: HmrStyle
 }
@@ -108,7 +112,7 @@ export const configSchema = generatorConfigSchema.extend({
     .object({
       hmr: z
         .object({
-          style: z.enum(['vite', 'webpack']).optional(),
+          style: z.enum(['vite', 'webpack', 'bun']).optional(),
         })
         .optional(),
       vite: z

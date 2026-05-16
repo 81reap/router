@@ -73,6 +73,10 @@
           "to": "installation/with-esbuild"
         },
         {
+          "label": "Bun",
+          "to": "installation/with-bun"
+        },
+        {
           "label": "Router CLI",
           "to": "installation/with-router-cli"
         }

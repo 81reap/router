@@ -28,6 +28,7 @@ import type { GetRoutesByFileMapResultValue } from '@tanstack/router-generator'
 import type { Config } from './config'
 import type { RouterPluginContext } from './router-plugin-context'
 import type {
+  UnpluginContextMeta,
   UnpluginFactory,
   TransformResult as UnpluginTransformResult,
 } from 'unplugin'
@@ -81,6 +82,7 @@ const TRANSFORMATION_PLUGINS_BY_FRAMEWORK: Record<
 export function createRouterCodeSplitterPlugin(
   options: Partial<Config | (() => Config)> | undefined = {},
   routerPluginContext: RouterPluginContext,
+  meta?: UnpluginContextMeta,
 ): ReturnType<UnpluginFactory<Partial<Config | (() => Config)> | undefined>> {
   let ROOT: string = process.cwd()
   let userConfig: Config
@@ -334,6 +336,14 @@ export function createRouterCodeSplitterPlugin(
         ROOT = process.cwd()
         initUserConfig()
       },
+
+      // Bun has no pre-bundle hook; init from `buildStart`.
+      ...(meta?.framework === 'bun' && {
+        buildStart() {
+          ROOT = process.cwd()
+          initUserConfig()
+        },
+      }),
     },
     {
       name: 'tanstack-router:code-splitter:compile-virtual-file',
@@ -410,6 +420,10 @@ export function createRouterCodeSplitterPlugin(
 
 export const unpluginRouterCodeSplitterFactory: UnpluginFactory<
   Partial<Config | (() => Config)> | undefined
-> = (options = {}) => {
-  return createRouterCodeSplitterPlugin(options, createRouterPluginContext())
+> = (options = {}, meta) => {
+  return createRouterCodeSplitterPlugin(
+    options,
+    createRouterPluginContext(),
+    meta,
+  )
 }

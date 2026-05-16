@@ -11,7 +11,7 @@ import type {
   WebpackCompiler,
 } from 'unplugin'
 
-const INLINE_CSS_DEFAULT_DEFINES = {
+export const INLINE_CSS_DEFAULT_DEFINES = {
   'process.env.TSS_INLINE_CSS_ENABLED': JSON.stringify('false'),
   'import.meta.env.TSS_INLINE_CSS_ENABLED': JSON.stringify('false'),
 }
@@ -46,10 +46,10 @@ export const unpluginRouterComposedFactory: UnpluginFactory<
   }
 
   const routerGenerator = getPlugin(
-    createRouterGeneratorPlugin(options, routerPluginContext),
+    createRouterGeneratorPlugin(options, routerPluginContext, _meta),
   )
   const routerCodeSplitter = getPlugin(
-    createRouterCodeSplitterPlugin(options, routerPluginContext),
+    createRouterCodeSplitterPlugin(options, routerPluginContext, _meta),
   )
 
   const result = [
