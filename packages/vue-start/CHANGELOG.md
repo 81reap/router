@@ -1,5 +1,86 @@
 # @tanstack/vue-start
 
+## 1.168.9
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @tanstack/start-plugin-core@1.171.2
+
+## 1.168.8
+
+### Patch Changes
+
+- Updated dependencies [[`0300f87`](https://github.com/TanStack/router/commit/0300f87ec5a7f878ffbe0b181acf84cba9139960)]:
+  - @tanstack/vue-router@1.170.6
+  - @tanstack/start-client-core@1.170.1
+  - @tanstack/start-plugin-core@1.171.1
+  - @tanstack/start-server-core@1.169.1
+  - @tanstack/vue-start-client@1.167.6
+  - @tanstack/vue-start-server@1.167.6
+
+## 1.168.7
+
+### Patch Changes
+
+- Updated dependencies [[`5fa9e55`](https://github.com/TanStack/router/commit/5fa9e555f3a2edb5e45586623e6bcbfa7f7c7a6b)]:
+  - @tanstack/start-client-core@1.170.0
+  - @tanstack/start-plugin-core@1.171.0
+  - @tanstack/start-server-core@1.169.0
+  - @tanstack/vue-start-client@1.167.5
+  - @tanstack/vue-start-server@1.167.5
+  - @tanstack/vue-router@1.170.5
+
+## 1.168.6
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @tanstack/start-client-core@1.169.4
+  - @tanstack/start-plugin-core@1.170.6
+  - @tanstack/start-server-core@1.168.4
+  - @tanstack/vue-router@1.170.4
+  - @tanstack/vue-start-client@1.167.4
+  - @tanstack/vue-start-server@1.167.4
+
+## 1.168.5
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @tanstack/start-plugin-core@1.170.5
+
+## 1.168.4
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @tanstack/start-client-core@1.169.3
+  - @tanstack/start-plugin-core@1.170.4
+  - @tanstack/start-server-core@1.168.3
+  - @tanstack/vue-router@1.170.3
+  - @tanstack/vue-start-client@1.167.3
+  - @tanstack/vue-start-server@1.167.3
+
+## 1.168.3
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @tanstack/start-client-core@1.169.2
+  - @tanstack/start-plugin-core@1.170.3
+  - @tanstack/start-server-core@1.168.2
+  - @tanstack/vue-router@1.170.2
+  - @tanstack/vue-start-client@1.167.2
+  - @tanstack/vue-start-server@1.167.2
+
+## 1.168.2
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @tanstack/start-plugin-core@1.170.2
+
 ## 1.168.1
 
 ### Patch Changes

@@ -75,7 +75,7 @@ importers:
         version: 1.26.2(eslint@9.22.0(jiti@2.7.0))(ts-api-utils@2.4.0(typescript@6.0.2))(typescript@6.0.2)
       '@nx/devkit':
         specifier: 22.6.5
-        version: 22.6.5(nx@22.6.5(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.10.15(@swc/helpers@0.5.21))(@swc/types@0.1.17)(typescript@6.0.2))(@swc/core@1.10.15(@swc/helpers@0.5.21)))
+        version: 22.6.5(nx@22.6.5(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.15.33(@swc/helpers@0.5.21))(@swc/types@0.1.26)(typescript@6.0.2))(@swc/core@1.15.33(@swc/helpers@0.5.21)))
       '@playwright/test':
         specifier: ^1.57.0
         version: 1.58.0
@@ -84,10 +84,10 @@ importers:
         version: 1.2.0
       '@swc-node/core':
         specifier: ^1.14.1
-        version: 1.14.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(@swc/types@0.1.17)
+        version: 1.14.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(@swc/types@0.1.26)
       '@swc-node/register':
         specifier: ^1.11.1
-        version: 1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.10.15(@swc/helpers@0.5.21))(@swc/types@0.1.17)(typescript@6.0.2)
+        version: 1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.15.33(@swc/helpers@0.5.21))(@swc/types@0.1.26)(typescript@6.0.2)
       '@tanstack/eslint-config':
         specifier: 0.4.0
         version: 0.4.0(@typescript-eslint/utils@8.57.1(eslint@9.22.0(jiti@2.7.0))(typescript@6.0.2))(eslint@9.22.0(jiti@2.7.0))(typescript@6.0.2)
@@ -138,7 +138,7 @@ importers:
         version: 4.0.3
       nx:
         specifier: 22.6.5
-        version: 22.6.5(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.10.15(@swc/helpers@0.5.21))(@swc/types@0.1.17)(typescript@6.0.2))(@swc/core@1.10.15(@swc/helpers@0.5.21))
+        version: 22.6.5(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.15.33(@swc/helpers@0.5.21))(@swc/types@0.1.26)(typescript@6.0.2))(@swc/core@1.15.33(@swc/helpers@0.5.21))
       prettier:
         specifier: ^3.8.0
         version: 3.8.1
@@ -501,9 +501,6 @@ importers:
       '@tanstack/router-plugin':
         specifier: workspace:*
         version: link:../../../packages/router-plugin
-      '@tanstack/zod-adapter':
-        specifier: workspace:*
-        version: link:../../../packages/zod-adapter
       react:
         specifier: ^19.2.3
         version: 19.2.3
@@ -514,8 +511,8 @@ importers:
         specifier: ^0.5.1
         version: 0.5.1
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -547,9 +544,6 @@ importers:
       '@tanstack/router-plugin':
         specifier: workspace:*
         version: link:../../../packages/router-plugin
-      '@tanstack/zod-adapter':
-        specifier: workspace:*
-        version: link:../../../packages/zod-adapter
       react:
         specifier: ^19.2.3
         version: 19.2.3
@@ -563,8 +557,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -612,8 +606,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -716,8 +710,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -817,8 +811,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -869,8 +863,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -1215,9 +1209,6 @@ importers:
       '@tanstack/router-plugin':
         specifier: workspace:*
         version: link:../../../packages/router-plugin
-      '@tanstack/zod-adapter':
-        specifier: workspace:*
-        version: link:../../../packages/zod-adapter
       react:
         specifier: ^19.2.3
         version: 19.2.3
@@ -1231,8 +1222,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -1332,8 +1323,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -1369,8 +1360,8 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/react-start
       express:
-        specifier: ^5.1.0
-        version: 5.1.0
+        specifier: ^5.2.1
+        version: 5.2.1
       http-proxy-middleware:
         specifier: ^3.0.5
         version: 3.0.5
@@ -1439,8 +1430,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
 
   e2e/react-start/basic-auth:
     dependencies:
@@ -1603,8 +1594,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^4.1.12
-        version: 4.1.12
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -1781,8 +1772,8 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/react-start
       express:
-        specifier: ^5.1.0
-        version: 5.1.0
+        specifier: ^5.2.1
+        version: 5.2.1
       react:
         specifier: ^19.2.3
         version: 19.2.3
@@ -1891,8 +1882,8 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/react-start
       express:
-        specifier: ^5.1.0
-        version: 5.1.0
+        specifier: ^5.2.1
+        version: 5.2.1
       react:
         specifier: ^19.2.3
         version: 19.2.3
@@ -1913,8 +1904,8 @@ importers:
         specifier: workspace:^
         version: link:../../e2e-utils
       '@types/express':
-        specifier: ^5.0.3
-        version: 5.0.3
+        specifier: ^5.0.6
+        version: 5.0.6
       '@types/node':
         specifier: 25.0.9
         version: 25.0.9
@@ -1955,8 +1946,8 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/react-start
       express:
-        specifier: ^5.1.0
-        version: 5.1.0
+        specifier: ^5.2.1
+        version: 5.2.1
       react:
         specifier: ^19.2.3
         version: 19.2.3
@@ -1980,8 +1971,8 @@ importers:
         specifier: workspace:^
         version: link:../../e2e-utils
       '@types/express':
-        specifier: ^5.0.3
-        version: 5.0.3
+        specifier: ^5.0.6
+        version: 5.0.6
       '@types/node':
         specifier: 25.0.9
         version: 25.0.9
@@ -2003,6 +1994,55 @@ importers:
       tsx:
         specifier: ^4.20.3
         version: 4.20.3
+      typescript:
+        specifier: ^6.0.2
+        version: 6.0.2
+
+  e2e/react-start/deferred-hydration:
+    dependencies:
+      '@tanstack/react-router':
+        specifier: workspace:*
+        version: link:../../../packages/react-router
+      '@tanstack/react-start':
+        specifier: workspace:*
+        version: link:../../../packages/react-start
+      react:
+        specifier: ^19.2.3
+        version: 19.2.3
+      react-dom:
+        specifier: ^19.2.3
+        version: 19.2.3(react@19.2.3)
+      vite:
+        specifier: ^8.0.0
+        version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
+    devDependencies:
+      '@rsbuild/core':
+        specifier: ^2.0.1
+        version: 2.0.1
+      '@rsbuild/plugin-react':
+        specifier: ^2.0.0
+        version: 2.0.0(@rsbuild/core@2.0.1)(@rspack/core@2.0.0(@swc/helpers@0.5.21))
+      '@tanstack/router-e2e-utils':
+        specifier: workspace:^
+        version: link:../../e2e-utils
+      '@types/node':
+        specifier: 25.0.9
+        version: 25.0.9
+      '@types/react':
+        specifier: ^19.2.8
+        version: 19.2.9
+      '@types/react-dom':
+        specifier: ^19.2.3
+        version: 19.2.3(@types/react@19.2.9)
+      '@vitejs/plugin-react':
+        specifier: ^6.0.1
+        version: 6.0.1(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
+      rolldown:
+        specifier: 1.0.0-rc.18
+        version: 1.0.0-rc.18
+      srvx:
+        specifier: ^0.11.9
+        version: 0.11.15
       typescript:
         specifier: ^6.0.2
         version: 6.0.2
@@ -2053,8 +2093,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
 
   e2e/react-start/early-hints:
     dependencies:
@@ -2380,8 +2420,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -2475,6 +2515,52 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
 
+  e2e/react-start/rsc-deferred-hydration:
+    dependencies:
+      '@tanstack/react-router':
+        specifier: workspace:*
+        version: link:../../../packages/react-router
+      '@tanstack/react-start':
+        specifier: workspace:*
+        version: link:../../../packages/react-start
+      react:
+        specifier: ^19.2.3
+        version: 19.2.3
+      react-dom:
+        specifier: ^19.2.3
+        version: 19.2.3(react@19.2.3)
+      vite:
+        specifier: ^8.0.0
+        version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
+    devDependencies:
+      '@playwright/test':
+        specifier: ^1.57.0
+        version: 1.58.0
+      '@tanstack/router-e2e-utils':
+        specifier: workspace:^
+        version: link:../../e2e-utils
+      '@types/node':
+        specifier: 25.0.9
+        version: 25.0.9
+      '@types/react':
+        specifier: ^19.2.8
+        version: 19.2.9
+      '@types/react-dom':
+        specifier: ^19.2.3
+        version: 19.2.3(@types/react@19.2.9)
+      '@vitejs/plugin-react':
+        specifier: ^6.0.1
+        version: 6.0.1(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
+      '@vitejs/plugin-rsc':
+        specifier: ^0.5.20
+        version: 0.5.20(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
+      srvx:
+        specifier: ^0.11.9
+        version: 0.11.15
+      typescript:
+        specifier: ^6.0.2
+        version: 6.0.2
+
   e2e/react-start/rsc-query:
     dependencies:
       '@tanstack/react-query':
@@ -2544,9 +2630,6 @@ importers:
       '@tanstack/react-start':
         specifier: workspace:*
         version: link:../../../packages/react-start
-      '@tanstack/zod-adapter':
-        specifier: workspace:*
-        version: link:../../../packages/zod-adapter
       react:
         specifier: ^19.2.3
         version: 19.2.3
@@ -2563,8 +2646,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -2621,8 +2704,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.2.2
@@ -2673,8 +2756,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.2.2
@@ -2740,8 +2823,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -2874,8 +2957,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -3015,8 +3098,8 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/react-start
       express:
-        specifier: ^5.1.0
-        version: 5.1.0
+        specifier: ^5.2.1
+        version: 5.2.1
       react:
         specifier: ^19.2.3
         version: 19.2.3
@@ -3196,8 +3279,8 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/react-start
       express:
-        specifier: ^5.1.0
-        version: 5.1.0
+        specifier: ^5.2.1
+        version: 5.2.1
       react:
         specifier: ^19.2.3
         version: 19.2.3
@@ -3263,8 +3346,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -3324,8 +3407,8 @@ importers:
         specifier: ^2.6.0
         version: 2.6.0
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -3434,9 +3517,6 @@ importers:
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
         version: link:../../../packages/solid-router-devtools
-      '@tanstack/zod-adapter':
-        specifier: workspace:*
-        version: link:../../../packages/zod-adapter
       redaxios:
         specifier: ^0.5.1
         version: 0.5.1
@@ -3444,8 +3524,8 @@ importers:
         specifier: 1.9.12
         version: 1.9.12
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -3474,9 +3554,6 @@ importers:
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
         version: link:../../../packages/solid-router-devtools
-      '@tanstack/zod-adapter':
-        specifier: workspace:*
-        version: link:../../../packages/zod-adapter
       redaxios:
         specifier: ^0.5.1
         version: 0.5.1
@@ -3487,8 +3564,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -3527,8 +3604,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -3653,8 +3730,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -3696,8 +3773,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -3739,8 +3816,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -3938,9 +4015,6 @@ importers:
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
         version: link:../../../packages/solid-router-devtools
-      '@tanstack/zod-adapter':
-        specifier: workspace:*
-        version: link:../../../packages/zod-adapter
       redaxios:
         specifier: ^0.5.1
         version: 0.5.1
@@ -3951,8 +4025,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -4034,8 +4108,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -4065,8 +4139,8 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/solid-start
       express:
-        specifier: ^5.1.0
-        version: 5.1.0
+        specifier: ^5.2.1
+        version: 5.2.1
       http-proxy-middleware:
         specifier: ^3.0.5
         version: 3.0.5
@@ -4086,8 +4160,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -4275,8 +4349,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^4.1.12
-        version: 4.1.12
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -4420,8 +4494,8 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/solid-start
       express:
-        specifier: ^5.1.0
-        version: 5.1.0
+        specifier: ^5.2.1
+        version: 5.2.1
       redaxios:
         specifier: ^0.5.1
         version: 0.5.1
@@ -4439,8 +4513,8 @@ importers:
         specifier: workspace:^
         version: link:../../e2e-utils
       '@types/express':
-        specifier: ^5.0.3
-        version: 5.0.3
+        specifier: ^5.0.6
+        version: 5.0.6
       '@types/node':
         specifier: 25.0.9
         version: 25.0.9
@@ -4462,6 +4536,49 @@ importers:
       vite:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
+      vite-plugin-solid:
+        specifier: ^2.11.11
+        version: 2.11.11(@testing-library/jest-dom@6.6.3)(solid-js@1.9.12)(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
+
+  e2e/solid-start/deferred-hydration:
+    dependencies:
+      '@tanstack/solid-router':
+        specifier: workspace:^
+        version: link:../../../packages/solid-router
+      '@tanstack/solid-start':
+        specifier: workspace:*
+        version: link:../../../packages/solid-start
+      solid-js:
+        specifier: 1.9.12
+        version: 1.9.12
+      vite:
+        specifier: ^8.0.0
+        version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
+    devDependencies:
+      '@rsbuild/core':
+        specifier: ^2.0.1
+        version: 2.0.1
+      '@rsbuild/plugin-babel':
+        specifier: ^1.1.2
+        version: 1.1.2(@rsbuild/core@2.0.1)
+      '@rsbuild/plugin-solid':
+        specifier: ^1.1.1
+        version: 1.1.1(@babel/core@7.29.0)(@rsbuild/core@2.0.1)(solid-js@1.9.12)
+      '@tanstack/router-e2e-utils':
+        specifier: workspace:^
+        version: link:../../e2e-utils
+      '@types/node':
+        specifier: 25.0.9
+        version: 25.0.9
+      rolldown:
+        specifier: 1.0.0-rc.18
+        version: 1.0.0-rc.18
+      srvx:
+        specifier: ^0.11.9
+        version: 0.11.15
+      typescript:
+        specifier: ^6.0.2
+        version: 6.0.2
       vite-plugin-solid:
         specifier: ^2.11.11
         version: 2.11.11(@testing-library/jest-dom@6.6.3)(solid-js@1.9.12)(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
@@ -4496,8 +4613,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -4532,9 +4649,6 @@ importers:
       '@tanstack/solid-start':
         specifier: workspace:*
         version: link:../../../packages/solid-start
-      '@tanstack/zod-adapter':
-        specifier: workspace:*
-        version: link:../../../packages/zod-adapter
       redaxios:
         specifier: ^0.5.1
         version: 0.5.1
@@ -4548,8 +4662,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -4591,8 +4705,8 @@ importers:
         specifier: 1.9.12
         version: 1.9.12
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.2.2
@@ -4634,8 +4748,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.2.2
@@ -4692,8 +4806,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -4759,8 +4873,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -4842,8 +4956,8 @@ importers:
         specifier: 1.9.12
         version: 1.9.12
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.2.2
@@ -4925,8 +5039,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -4980,8 +5094,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -5111,9 +5225,6 @@ importers:
       '@tanstack/vue-router-devtools':
         specifier: workspace:*
         version: link:../../../packages/vue-router-devtools
-      '@tanstack/zod-adapter':
-        specifier: workspace:*
-        version: link:../../../packages/zod-adapter
       postcss:
         specifier: ^8.5.1
         version: 8.5.6
@@ -5124,8 +5235,8 @@ importers:
         specifier: ^3.5.16
         version: 3.5.25(typescript@6.0.2)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@eslint/js':
         specifier: ^9.36.0
@@ -5175,9 +5286,6 @@ importers:
       '@tanstack/vue-router-devtools':
         specifier: workspace:*
         version: link:../../../packages/vue-router-devtools
-      '@tanstack/zod-adapter':
-        specifier: workspace:*
-        version: link:../../../packages/zod-adapter
       redaxios:
         specifier: ^0.5.1
         version: 0.5.1
@@ -5188,8 +5296,8 @@ importers:
         specifier: ^3.5.16
         version: 3.5.25(typescript@5.8.3)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@eslint/js':
         specifier: ^9.36.0
@@ -5242,9 +5350,6 @@ importers:
       '@tanstack/vue-router-devtools':
         specifier: workspace:*
         version: link:../../../packages/vue-router-devtools
-      '@tanstack/zod-adapter':
-        specifier: workspace:*
-        version: link:../../../packages/zod-adapter
       redaxios:
         specifier: ^0.5.1
         version: 0.5.1
@@ -5255,8 +5360,8 @@ importers:
         specifier: ^3.5.16
         version: 3.5.25(typescript@5.8.3)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -5515,8 +5620,8 @@ importers:
         specifier: ^3.5.16
         version: 3.5.25(typescript@5.8.3)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -5756,9 +5861,6 @@ importers:
       '@tanstack/vue-router-devtools':
         specifier: workspace:*
         version: link:../../../packages/vue-router-devtools
-      '@tanstack/zod-adapter':
-        specifier: workspace:*
-        version: link:../../../packages/zod-adapter
       redaxios:
         specifier: ^0.5.1
         version: 0.5.1
@@ -5769,8 +5871,8 @@ importers:
         specifier: ^3.5.16
         version: 3.5.25(typescript@5.8.3)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -5907,8 +6009,8 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/vue-start
       express:
-        specifier: ^5.1.0
-        version: 5.1.0
+        specifier: ^5.2.1
+        version: 5.2.1
       http-proxy-middleware:
         specifier: ^3.0.5
         version: 3.0.5
@@ -5928,8 +6030,8 @@ importers:
         specifier: ^3.5.16
         version: 3.5.25(typescript@6.0.2)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -5942,7 +6044,7 @@ importers:
         version: 1.0.6(@rsbuild/core@2.0.1)
       '@rsbuild/plugin-vue':
         specifier: ^1.2.2
-        version: 1.2.2(@rsbuild/core@2.0.1)(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(vue@3.5.25(typescript@6.0.2))
+        version: 1.2.2(@rsbuild/core@2.0.1)(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(vue@3.5.25(typescript@6.0.2))
       '@rsbuild/plugin-vue-jsx':
         specifier: ^1.1.1
         version: 1.1.1(@babel/core@7.29.0)(@rsbuild/core@2.0.1)
@@ -6166,8 +6268,8 @@ importers:
         specifier: ^3.5.25
         version: 3.5.25(typescript@6.0.2)
       zod:
-        specifier: ^4.1.12
-        version: 4.1.12
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -6246,8 +6348,8 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/vue-start
       express:
-        specifier: ^5.1.0
-        version: 5.1.0
+        specifier: ^5.2.1
+        version: 5.2.1
       redaxios:
         specifier: ^0.5.1
         version: 0.5.1
@@ -6265,8 +6367,8 @@ importers:
         specifier: workspace:^
         version: link:../../e2e-utils
       '@types/express':
-        specifier: ^5.0.3
-        version: 5.0.3
+        specifier: ^5.0.6
+        version: 5.0.6
       '@types/node':
         specifier: 25.0.9
         version: 25.0.9
@@ -6325,8 +6427,8 @@ importers:
         specifier: ^3.5.16
         version: 3.5.25(typescript@6.0.2)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -6364,9 +6466,6 @@ importers:
       '@tanstack/vue-start':
         specifier: workspace:*
         version: link:../../../packages/vue-start
-      '@tanstack/zod-adapter':
-        specifier: workspace:*
-        version: link:../../../packages/zod-adapter
       redaxios:
         specifier: ^0.5.1
         version: 0.5.1
@@ -6380,8 +6479,8 @@ importers:
         specifier: ^3.5.25
         version: 3.5.25(typescript@6.0.2)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -6426,8 +6525,8 @@ importers:
         specifier: ^3.5.25
         version: 3.5.25(typescript@6.0.2)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.2.2
@@ -6472,8 +6571,8 @@ importers:
         specifier: ^3.5.25
         version: 3.5.25(typescript@6.0.2)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.2.2
@@ -6536,8 +6635,8 @@ importers:
         specifier: ^3.5.25
         version: 3.5.25(typescript@6.0.2)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -6606,8 +6705,8 @@ importers:
         specifier: ^3.5.25
         version: 3.5.25(typescript@6.0.2)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -6658,8 +6757,8 @@ importers:
         specifier: ^3.5.25
         version: 3.5.25(typescript@6.0.2)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.2.2
@@ -6744,8 +6843,8 @@ importers:
         specifier: ^3.5.25
         version: 3.5.25(typescript@6.0.2)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -6802,8 +6901,8 @@ importers:
         specifier: ^3.5.25
         version: 3.5.25(typescript@6.0.2)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@playwright/test':
         specifier: ^1.57.0
@@ -6860,8 +6959,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -6912,8 +7011,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -6998,8 +7097,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -7087,8 +7186,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -7225,8 +7324,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -7256,8 +7355,8 @@ importers:
         specifier: ^1.8.0
         version: 1.8.0
       express:
-        specifier: ^4.21.2
-        version: 4.21.2
+        specifier: ^5.2.1
+        version: 5.2.1
       get-port:
         specifier: ^7.1.0
         version: 7.1.0
@@ -7275,8 +7374,8 @@ importers:
         specifier: workspace:^
         version: link:../../../packages/react-router-devtools
       '@types/express':
-        specifier: ^4.17.23
-        version: 4.17.23
+        specifier: ^5.0.6
+        version: 5.0.6
       '@types/react':
         specifier: ^19.2.8
         version: 19.2.9
@@ -7305,8 +7404,8 @@ importers:
         specifier: ^1.8.0
         version: 1.8.0
       express:
-        specifier: ^4.21.2
-        version: 4.21.2
+        specifier: ^5.2.1
+        version: 5.2.1
       get-port:
         specifier: ^7.1.0
         version: 7.1.0
@@ -7324,8 +7423,8 @@ importers:
         specifier: workspace:^
         version: link:../../../packages/react-router-devtools
       '@types/express':
-        specifier: ^4.17.23
-        version: 4.17.23
+        specifier: ^5.0.6
+        version: 5.0.6
       '@types/react':
         specifier: ^19.2.8
         version: 19.2.9
@@ -7372,8 +7471,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -7421,8 +7520,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -7464,8 +7563,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -7553,8 +7652,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -7602,8 +7701,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -7654,8 +7753,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -7709,8 +7808,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -7758,8 +7857,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -7924,8 +8023,8 @@ importers:
         specifier: ^0.5.1
         version: 0.5.1
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -7964,8 +8063,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -8042,8 +8141,8 @@ importers:
         version: 19.2.3(react@19.2.3)
     devDependencies:
       '@swc/core':
-        specifier: ^1.10.15
-        version: 1.10.15(@swc/helpers@0.5.21)
+        specifier: ^1.15.33
+        version: 1.15.33(@swc/helpers@0.5.21)
       '@tanstack/router-plugin':
         specifier: workspace:*
         version: link:../../../packages/router-plugin
@@ -8061,19 +8160,19 @@ importers:
         version: 0.18.0
       swc-loader:
         specifier: ^0.2.6
-        version: 0.2.6(@swc/core@1.10.15(@swc/helpers@0.5.21))(webpack@5.97.1)
+        version: 0.2.6(@swc/core@1.15.33(@swc/helpers@0.5.21))(webpack@5.97.1)
       typescript:
         specifier: ^6.0.2
         version: 6.0.2
       webpack:
         specifier: ^5.97.1
-        version: 5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
+        version: 5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
       webpack-cli:
         specifier: ^5.1.4
-        version: 5.1.4(webpack-dev-server@5.2.0)(webpack@5.97.1)
+        version: 5.1.4(webpack-dev-server@5.2.4)(webpack@5.97.1)
       webpack-dev-server:
-        specifier: ^5.2.0
-        version: 5.2.0(webpack-cli@5.1.4)(webpack@5.97.1)
+        specifier: ^5.2.4
+        version: 5.2.4(webpack-cli@5.1.4)(webpack@5.97.1)
 
   examples/react/router-monorepo-react-query:
     dependencies:
@@ -8216,8 +8315,8 @@ importers:
         specifier: ^0.5.1
         version: 0.5.1
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@vitejs/plugin-react':
         specifier: ^6.0.1
@@ -8256,8 +8355,8 @@ importers:
         specifier: ^0.5.1
         version: 0.5.1
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -8462,8 +8561,8 @@ importers:
         specifier: ^0.5.1
         version: 0.5.1
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -8579,8 +8678,8 @@ importers:
         specifier: ^0.5.1
         version: 0.5.1
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -8684,7 +8783,7 @@ importers:
         version: 1.0.0-beta.15(typescript@6.0.2)
       zod:
         specifier: ^3.24.2
-        version: 3.25.57
+        version: 3.25.76
     devDependencies:
       '@testing-library/jest-dom':
         specifier: ^6.6.3
@@ -8726,8 +8825,8 @@ importers:
         specifier: ^19.2.3
         version: 19.2.3(react@19.2.3)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/node':
         specifier: 25.0.9
@@ -8769,8 +8868,8 @@ importers:
         specifier: ^2.6.0
         version: 2.6.0
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.2.2
@@ -9257,8 +9356,8 @@ importers:
         specifier: ^2.6.0
         version: 2.6.0
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.2.2
@@ -9459,8 +9558,8 @@ importers:
         specifier: ^19.2.3
         version: 19.2.3(react@19.2.3)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/node':
         specifier: 25.0.9
@@ -9505,8 +9604,8 @@ importers:
         specifier: ^2.6.0
         version: 2.6.0
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
       zustand:
         specifier: ^5.0.10
         version: 5.0.12(@types/react@19.2.9)(immer@10.1.1)(react@19.2.3)(use-sync-external-store@1.6.0(react@19.2.3))
@@ -9560,8 +9659,8 @@ importers:
         specifier: ^19.2.3
         version: 19.2.3(react@19.2.3)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/node':
         specifier: 25.0.9
@@ -9652,8 +9751,8 @@ importers:
         specifier: ^2.6.0
         version: 2.6.0
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.2.2
@@ -9722,8 +9821,8 @@ importers:
         specifier: ^2.6.0
         version: 2.6.0
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.2.2
@@ -9817,8 +9916,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -9863,8 +9962,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/react':
         specifier: ^19.2.8
@@ -9903,8 +10002,8 @@ importers:
         specifier: ^11.4.3
         version: 11.4.3(typescript@6.0.2)
       express:
-        specifier: ^4.21.2
-        version: 4.21.2
+        specifier: ^5.2.1
+        version: 5.2.1
       react:
         specifier: ^19.2.3
         version: 19.2.3
@@ -9918,12 +10017,12 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/express':
-        specifier: ^4.17.23
-        version: 4.17.23
+        specifier: ^5.0.6
+        version: 5.0.6
       '@types/react':
         specifier: ^19.2.8
         version: 19.2.9
@@ -9970,8 +10069,8 @@ importers:
         specifier: ^11.4.3
         version: 11.4.3(@tanstack/react-query@5.99.0(react@19.2.3))(@trpc/client@11.4.3(@trpc/server@11.4.3(typescript@6.0.2))(typescript@6.0.2))(@trpc/server@11.4.3(typescript@6.0.2))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@6.0.2)
       express:
-        specifier: ^4.21.2
-        version: 4.21.2
+        specifier: ^5.2.1
+        version: 5.2.1
       react:
         specifier: ^19.2.3
         version: 19.2.3
@@ -9985,12 +10084,12 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/express':
-        specifier: ^4.17.23
-        version: 4.17.23
+        specifier: ^5.0.6
+        version: 5.0.6
       '@types/react':
         specifier: ^19.2.8
         version: 19.2.9
@@ -10016,7 +10115,7 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/router-plugin
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10031,8 +10130,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       typescript:
         specifier: ^6.0.2
@@ -10053,7 +10152,7 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/router-plugin
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10074,8 +10173,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       typescript:
         specifier: ^6.0.2
@@ -10093,7 +10192,7 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10133,7 +10232,7 @@ importers:
         specifier: ^5.99.0
         version: 5.99.0(solid-js@1.9.12)
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10148,8 +10247,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       typescript:
         specifier: ^6.0.2
@@ -10167,7 +10266,7 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10198,7 +10297,7 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10213,8 +10312,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tanstack/router-plugin':
         specifier: workspace:*
@@ -10235,7 +10334,7 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10278,7 +10377,7 @@ importers:
         specifier: ^5.90.0
         version: 5.90.4(@tanstack/solid-query@5.99.0(solid-js@1.9.12))(solid-js@1.9.12)
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10318,7 +10417,7 @@ importers:
         specifier: ^5.90.0
         version: 5.90.4(@tanstack/solid-query@5.99.0(solid-js@1.9.12))(solid-js@1.9.12)
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10333,8 +10432,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tanstack/router-plugin':
         specifier: workspace:*
@@ -10355,14 +10454,14 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/router-plugin
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       compression:
         specifier: ^1.8.0
         version: 1.8.0
       express:
-        specifier: ^4.21.2
-        version: 4.21.2
+        specifier: ^5.2.1
+        version: 5.2.1
       get-port:
         specifier: ^7.1.0
         version: 7.1.0
@@ -10377,8 +10476,8 @@ importers:
         specifier: workspace:^
         version: link:../../../packages/solid-router-devtools
       '@types/express':
-        specifier: ^4.17.23
-        version: 4.17.23
+        specifier: ^5.0.6
+        version: 5.0.6
       typescript:
         specifier: ^6.0.2
         version: 6.0.2
@@ -10395,7 +10494,7 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10404,8 +10503,8 @@ importers:
         specifier: ^1.8.0
         version: 1.8.0
       express:
-        specifier: ^4.21.2
-        version: 4.21.2
+        specifier: ^5.2.1
+        version: 5.2.1
       get-port:
         specifier: ^7.1.0
         version: 7.1.0
@@ -10422,15 +10521,15 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tanstack/router-plugin':
         specifier: workspace:*
         version: link:../../../packages/router-plugin
       '@types/express':
-        specifier: ^4.17.23
-        version: 4.17.23
+        specifier: ^5.0.6
+        version: 5.0.6
       typescript:
         specifier: ^6.0.2
         version: 6.0.2
@@ -10450,7 +10549,7 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/router-plugin
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10468,8 +10567,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       typescript:
         specifier: ^6.0.2
@@ -10490,7 +10589,7 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/router-plugin
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10508,8 +10607,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       typescript:
         specifier: ^6.0.2
@@ -10527,7 +10626,7 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10542,8 +10641,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       typescript:
         specifier: ^6.0.2
@@ -10564,7 +10663,7 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/router-plugin
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       solid-js:
         specifier: 1.9.12
@@ -10595,7 +10694,7 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10613,8 +10712,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       typescript:
         specifier: ^6.0.2
@@ -10632,7 +10731,7 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10650,8 +10749,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tanstack/router-plugin':
         specifier: workspace:*
@@ -10678,7 +10777,7 @@ importers:
         specifier: ^5.90.0
         version: 5.90.4(@tanstack/solid-query@5.99.0(solid-js@1.9.12))(solid-js@1.9.12)
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10696,8 +10795,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       typescript:
         specifier: ^6.0.2
@@ -10724,7 +10823,7 @@ importers:
         specifier: ^5.90.0
         version: 5.90.4(@tanstack/solid-query@5.99.0(solid-js@1.9.12))(solid-js@1.9.12)
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10742,8 +10841,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       typescript:
         specifier: ^6.0.2
@@ -10767,7 +10866,7 @@ importers:
         specifier: ^5.99.0
         version: 5.99.0(solid-js@1.9.12)
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10782,8 +10881,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       typescript:
         specifier: ^6.0.2
@@ -10804,7 +10903,7 @@ importers:
         specifier: ^5.99.0
         version: 5.99.0(solid-js@1.9.12)
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10838,7 +10937,7 @@ importers:
         specifier: ^5.99.0
         version: 5.99.0(solid-js@1.9.12)
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10869,7 +10968,7 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10897,7 +10996,7 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/router-plugin
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10912,8 +11011,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       esbuild:
         specifier: ^0.27.4
@@ -10928,7 +11027,7 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10943,8 +11042,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tanstack/router-plugin':
         specifier: workspace:*
@@ -10965,7 +11064,7 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -10999,7 +11098,7 @@ importers:
   examples/solid/quickstart-webpack-file-based:
     dependencies:
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11046,13 +11145,13 @@ importers:
         version: 6.0.2
       webpack:
         specifier: ^5.97.1
-        version: 5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
+        version: 5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
       webpack-cli:
         specifier: ^5.1.4
-        version: 5.1.4(webpack-dev-server@5.2.0)(webpack@5.97.1)
+        version: 5.1.4(webpack-dev-server@5.2.4)(webpack@5.97.1)
       webpack-dev-server:
-        specifier: ^5.2.0
-        version: 5.2.0(webpack-cli@5.1.4)(webpack@5.97.1)
+        specifier: ^5.2.4
+        version: 5.2.4(webpack-cli@5.1.4)(webpack@5.97.1)
 
   examples/solid/router-monorepo-simple:
     dependencies:
@@ -11060,7 +11159,7 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/router-plugin
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11094,7 +11193,7 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/router-plugin
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11134,7 +11233,7 @@ importers:
         specifier: ^5.90.0
         version: 5.90.4(@tanstack/solid-query@5.99.0(solid-js@1.9.12))(solid-js@1.9.12)
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11168,7 +11267,7 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11208,7 +11307,7 @@ importers:
         specifier: ^5.99.0
         version: 5.99.0(solid-js@1.9.12)
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11233,7 +11332,7 @@ importers:
         version: 1.0.0-beta.15(typescript@6.0.2)
       zod:
         specifier: ^3.24.2
-        version: 3.25.57
+        version: 3.25.76
     devDependencies:
       '@solidjs/testing-library':
         specifier: ^0.8.10
@@ -11254,7 +11353,7 @@ importers:
   examples/solid/start-basic:
     dependencies:
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11306,7 +11405,7 @@ importers:
         specifier: ^7.0.0
         version: 7.0.0(prisma@7.0.0(@types/react@19.2.9)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@6.0.2))(typescript@6.0.2)
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11355,7 +11454,7 @@ importers:
         specifier: ^0.41.1
         version: 0.41.1
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11395,7 +11494,7 @@ importers:
   examples/solid/start-basic-cloudflare:
     dependencies:
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11435,7 +11534,7 @@ importers:
   examples/solid/start-basic-netlify:
     dependencies:
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11472,7 +11571,7 @@ importers:
   examples/solid/start-basic-nitro:
     dependencies:
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11515,7 +11614,7 @@ importers:
         specifier: ^5.90.0
         version: 5.90.4(@tanstack/solid-query@5.99.0(solid-js@1.9.12))(solid-js@1.9.12)
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11558,7 +11657,7 @@ importers:
   examples/solid/start-basic-static:
     dependencies:
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11610,7 +11709,7 @@ importers:
         specifier: ^0.7.0
         version: 0.7.14(csstype@3.2.3)(solid-js@1.9.12)
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11674,7 +11773,7 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11707,8 +11806,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/node':
         specifier: 25.0.9
@@ -11729,7 +11828,7 @@ importers:
   examples/solid/start-counter:
     dependencies:
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11747,8 +11846,8 @@ importers:
         specifier: ^2.6.0
         version: 2.6.0
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/node':
         specifier: 25.0.9
@@ -11772,7 +11871,7 @@ importers:
         specifier: ^0.7.0
         version: 0.7.14(csstype@3.2.3)(solid-js@1.9.12)
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11812,7 +11911,7 @@ importers:
         specifier: ^5.99.0
         version: 5.99.0(solid-js@1.9.12)
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11855,7 +11954,7 @@ importers:
   examples/solid/start-streaming-data-from-server-functions:
     dependencies:
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11867,8 +11966,8 @@ importers:
         specifier: 1.9.12
         version: 1.9.12
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/node':
         specifier: 25.0.9
@@ -11892,7 +11991,7 @@ importers:
         specifier: ^2.48.1
         version: 2.48.1
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11929,7 +12028,7 @@ importers:
   examples/solid/start-tailwind-v4:
     dependencies:
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11944,8 +12043,8 @@ importers:
         specifier: ^2.6.0
         version: 2.6.0
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.2.2
@@ -11975,7 +12074,7 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/router-plugin
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -11990,8 +12089,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       typescript:
         specifier: ^6.0.2
@@ -12009,7 +12108,7 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -12027,8 +12126,8 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       typescript:
         specifier: ^6.0.2
@@ -12049,7 +12148,7 @@ importers:
         specifier: workspace:*
         version: link:../../../packages/router-plugin
       '@tanstack/solid-router':
-        specifier: ^1.170.1
+        specifier: ^1.170.6
         version: link:../../../packages/solid-router
       '@tanstack/solid-router-devtools':
         specifier: workspace:^
@@ -12061,8 +12160,8 @@ importers:
         specifier: ^11.4.3
         version: 11.4.3(typescript@6.0.2)
       express:
-        specifier: ^4.21.2
-        version: 4.21.2
+        specifier: ^5.2.1
+        version: 5.2.1
       redaxios:
         specifier: ^0.5.1
         version: 0.5.1
@@ -12073,12 +12172,12 @@ importers:
         specifier: ^4.2.2
         version: 4.2.2
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/express':
-        specifier: ^4.17.23
-        version: 4.17.23
+        specifier: ^5.0.6
+        version: 5.0.6
       tsx:
         specifier: ^4.20.3
         version: 4.20.3
@@ -12140,9 +12239,6 @@ importers:
       '@tanstack/vue-router-devtools':
         specifier: workspace:*
         version: link:../../../packages/vue-router-devtools
-      '@tanstack/zod-adapter':
-        specifier: workspace:*
-        version: link:../../../packages/zod-adapter
       redaxios:
         specifier: ^0.5.1
         version: 0.5.1
@@ -12153,8 +12249,8 @@ importers:
         specifier: ^3.5.16
         version: 3.5.25(typescript@5.8.3)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@eslint/js':
         specifier: ^9.36.0
@@ -12201,9 +12297,6 @@ importers:
       '@tanstack/vue-router-devtools':
         specifier: workspace:*
         version: link:../../../packages/vue-router-devtools
-      '@tanstack/zod-adapter':
-        specifier: workspace:*
-        version: link:../../../packages/zod-adapter
       redaxios:
         specifier: ^0.5.1
         version: 0.5.1
@@ -12214,8 +12307,8 @@ importers:
         specifier: ^3.5.16
         version: 3.5.25(typescript@5.8.3)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^6.0.5
@@ -12356,8 +12449,8 @@ importers:
         specifier: ^8.0.0
         version: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
 
   packages/react-router-devtools:
     dependencies:
@@ -12587,12 +12680,15 @@ importers:
         specifier: workspace:*
         version: link:../router-generator
       chokidar:
-        specifier: ^3.6.0
-        version: 3.6.0
+        specifier: ^5.0.0
+        version: 5.0.0
       yargs:
         specifier: ^17.7.2
         version: 17.7.2
     devDependencies:
+      '@types/node':
+        specifier: 25.0.9
+        version: 25.0.9
       '@types/yargs':
         specifier: ^17.0.33
         version: 17.0.33
@@ -12641,10 +12737,10 @@ importers:
         version: 2.1.1
       csstype:
         specifier: ^3.0.10
-        version: 3.1.3
+        version: 3.2.3
       goober:
         specifier: ^2.1.16
-        version: 2.1.16(csstype@3.1.3)
+        version: 2.1.16(csstype@3.2.3)
     devDependencies:
       '@vitejs/plugin-react':
         specifier: ^4.3.4
@@ -12669,10 +12765,10 @@ importers:
         version: 2.1.1
       csstype:
         specifier: ^3.0.10
-        version: 3.1.3
+        version: 3.2.3
       goober:
         specifier: ^2.1.16
-        version: 2.1.16(csstype@3.1.3)
+        version: 2.1.16(csstype@3.2.3)
     devDependencies:
       solid-js:
         specifier: 1.9.12
@@ -12708,8 +12804,8 @@ importers:
         specifier: ^3.5.0
         version: 3.5.0
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@tanstack/react-router':
         specifier: workspace:*
@@ -12760,8 +12856,8 @@ importers:
         specifier: workspace:*
         version: link:../virtual-file-routes
       chokidar:
-        specifier: ^3.6.0
-        version: 3.6.0
+        specifier: ^5.0.0
+        version: 5.0.0
       unplugin:
         specifier: ^3.0.0
         version: 3.0.0
@@ -12773,10 +12869,10 @@ importers:
         version: 2.11.11(@testing-library/jest-dom@6.6.3)(solid-js@1.9.12)(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
       webpack:
         specifier: '>=5.92.0'
-        version: 5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)
+        version: 5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@types/babel__core':
         specifier: ^7.20.5
@@ -12905,8 +13001,8 @@ importers:
         specifier: ^2.11.10
         version: 2.11.10(@testing-library/jest-dom@6.6.3)(solid-js@1.9.12)(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1))
       zod:
-        specifier: ^3.23.8
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
 
   packages/solid-router-devtools:
     dependencies:
@@ -13103,8 +13199,8 @@ importers:
         specifier: ^7.28.5
         version: 7.28.5
       '@rolldown/pluginutils':
-        specifier: 1.0.0-beta.40
-        version: 1.0.0-beta.40
+        specifier: 1.0.1
+        version: 1.0.1
       '@tanstack/router-core':
         specifier: workspace:*
         version: link:../router-core
@@ -13160,8 +13256,8 @@ importers:
         specifier: ^4.0.3
         version: 4.0.3
       zod:
-        specifier: ^3.24.2
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
     devDependencies:
       '@rsbuild/core':
         specifier: ^2.0.1
@@ -13333,8 +13429,8 @@ importers:
         specifier: ^3.5.25
         version: 3.5.25(typescript@6.0.2)
       zod:
-        specifier: ^3.23.8
-        version: 3.25.57
+        specifier: ^4.4.3
+        version: 4.4.3
 
   packages/vue-router-devtools:
     dependencies:
@@ -14219,14 +14315,8 @@ packages:
   '@emnapi/core@1.10.0':
     resolution: {integrity: sha512-yq6OkJ4p82CAfPl0u9mQebQHKPJkY7WrIuk205cTYnYe+k2Z8YBh11FrbRG/H6ihirqcacOgl2BIO8oyMQLeXw==}
 
-  '@emnapi/core@1.9.2':
-    resolution: {integrity: sha512-UC+ZhH3XtczQYfOlu3lNEkdW/p4dsJ1r/bP7H8+rhao3TTTMO1ATq/4DdIi23XuGoFY+Cz0JmCbdVl0hz9jZcA==}
-
   '@emnapi/runtime@1.10.0':
     resolution: {integrity: sha512-ewvYlk86xUoGI0zQRNq/mC+16R1QeDlKQy21Ki3oSYXNgLb45GV1P6A0M+/s6nyCuNDqe5VpaY84BzXGwVbwFA==}
-
-  '@emnapi/runtime@1.9.2':
-    resolution: {integrity: sha512-3U4+MIWHImeyu1wnmVygh5WlgfYDtyf0k8AbLhMFxOipihf6nrWC4syIm/SwEeec0mNSafiiNnMJwbza/Is6Lw==}
 
   '@emnapi/wasi-threads@1.2.1':
     resolution: {integrity: sha512-uTII7OYF+/Mes/MrcIOYp5yOtSMLBWSIoLPpcgwipoiKbli6k322tcoFsxoIIxPDqW01SQGAgko4EzZi2BNv2w==}
@@ -16252,6 +16342,10 @@ packages:
     resolution: {integrity: sha512-xHK3XHPUW8DTAobU+G0XT+/w+JLM7/8k1UFdB5xg/zTFPnFCobhftzw8wl4Lw2aq/Rvir5pxfZV5fEazmeCJ2g==}
     engines: {node: '>= 20.19.0'}
 
+  '@noble/hashes@1.4.0':
+    resolution: {integrity: sha512-V1JJ1WTRUqHHrOSh597hURcMqVKVGL/ea3kv0gSnEdsEZ0/+VyPghM1lMNGc00z7CIQorSvbKpuJkxvuHbvdbg==}
+    engines: {node: '>= 16'}
+
   '@noble/hashes@2.0.1':
     resolution: {integrity: sha512-XlOlEbQcE9fmuXxrVTXCTlG2nlRXa9Rj3rr5Ue/+tX+nmkgbX720YHh0VR3hBF9xDvwnb8D2shVGOwNx+ulArw==}
     engines: {node: '>= 20.19.0'}
@@ -16491,6 +16585,9 @@ packages:
 
   '@oxc-project/types@0.115.0':
     resolution: {integrity: sha512-4n91DKnebUS4yjUHl2g3/b2T+IUdCfmoZGhmwsovZCDaJSs+QkVAM+0AqqTxHSsHfeiMuueT75cZaZcT/m0pSw==}
+
+  '@oxc-project/types@0.128.0':
+    resolution: {integrity: sha512-huv1Y/LzBJkBVHt3OlC7u0zHBW9qXf1FdD7sGmc1rXc2P1mTwHssYv7jyGx5KAACSCH+9B3Bhn6Z9luHRvf7pQ==}
 
   '@oxc-project/types@0.129.0':
     resolution: {integrity: sha512-3oz8m3FGdr2nDXVqmFUw7jolKliC4MoyXYIG2c7gpjBnzUWQpUGIYcXYKxTdTi+N2jusvt610ckTMkxdwHkYEg==}
@@ -16833,35 +16930,72 @@ packages:
   '@peculiar/asn1-cms@2.5.0':
     resolution: {integrity: sha512-p0SjJ3TuuleIvjPM4aYfvYw8Fk1Hn/zAVyPJZTtZ2eE9/MIer6/18ROxX6N/e6edVSfvuZBqhxAj3YgsmSjQ/A==}
 
+  '@peculiar/asn1-cms@2.7.0':
+    resolution: {integrity: sha512-hew63shtzzvBcSHbhm+cyAmKe6AIfinT9hzEqSPjDC6opTTMKmTkQ0gHuN2KsWlvqiKw1S/fS94fhag/FJkioQ==}
+
   '@peculiar/asn1-csr@2.5.0':
     resolution: {integrity: sha512-ioigvA6WSYN9h/YssMmmoIwgl3RvZlAYx4A/9jD2qaqXZwGcNlAxaw54eSx2QG1Yu7YyBC5Rku3nNoHrQ16YsQ==}
+
+  '@peculiar/asn1-csr@2.7.0':
+    resolution: {integrity: sha512-VVsAyGqErT9D1SY4aEqozThXMVI+ssVRiv2DDeYuvpBKLIgZ3hYs3Ay3u/VSoKq6ESFi9cf6rf3IOOzfwh7oMA==}
 
   '@peculiar/asn1-ecc@2.5.0':
     resolution: {integrity: sha512-t4eYGNhXtLRxaP50h3sfO6aJebUCDGQACoeexcelL4roMFRRVgB20yBIu2LxsPh/tdW9I282gNgMOyg3ywg/mg==}
 
+  '@peculiar/asn1-ecc@2.7.0':
+    resolution: {integrity: sha512-n7KEs/Q/wrB415cxy4fHOBhegp4NdJ15fkJPwcB/3/8iNBQC2L/N7SChJPKDJPZGYH0jD4Tg4/0vnHmwghnbKw==}
+
   '@peculiar/asn1-pfx@2.5.0':
     resolution: {integrity: sha512-Vj0d0wxJZA+Ztqfb7W+/iu8Uasw6hhKtCdLKXLG/P3kEPIQpqGI4P4YXlROfl7gOCqFIbgsj1HzFIFwQ5s20ug==}
+
+  '@peculiar/asn1-pfx@2.7.0':
+    resolution: {integrity: sha512-V/nrlQVmhg7lYAsM7E13UDL5erAwFv6kCIVFqNaMIHSVi7dngcT839JkRTkQBqznMG98l2XjxYk74ZztAohZzA==}
 
   '@peculiar/asn1-pkcs8@2.5.0':
     resolution: {integrity: sha512-L7599HTI2SLlitlpEP8oAPaJgYssByI4eCwQq2C9eC90otFpm8MRn66PpbKviweAlhinWQ3ZjDD2KIVtx7PaVw==}
 
+  '@peculiar/asn1-pkcs8@2.7.0':
+    resolution: {integrity: sha512-9GTl1nE8Mx1kTZ+7QyYatDyKsm34QcWRBFkY1iPvWC3X4Dona5s/tlLiQsx5WzVdZqiMBZNYT0buyw4/vbhnjw==}
+
   '@peculiar/asn1-pkcs9@2.5.0':
     resolution: {integrity: sha512-UgqSMBLNLR5TzEZ5ZzxR45Nk6VJrammxd60WMSkofyNzd3DQLSNycGWSK5Xg3UTYbXcDFyG8pA/7/y/ztVCa6A==}
+
+  '@peculiar/asn1-pkcs9@2.7.0':
+    resolution: {integrity: sha512-Bh7m+OuIaSEllPQcSd9OSp93F4ROWH7sbITWV8MI+8dwsjE5111/87VxiWVvYFKyww3vp39geLv9ENqhwWHcew==}
 
   '@peculiar/asn1-rsa@2.5.0':
     resolution: {integrity: sha512-qMZ/vweiTHy9syrkkqWFvbT3eLoedvamcUdnnvwyyUNv5FgFXA3KP8td+ATibnlZ0EANW5PYRm8E6MJzEB/72Q==}
 
+  '@peculiar/asn1-rsa@2.7.0':
+    resolution: {integrity: sha512-/qvENQrXyTZURjMqSeofHul0JJt2sNSzSwk36pl2olkHbaioMQgrASDZAlHXl0xUlnVbHj0uGgOrBMTb5x2aJQ==}
+
   '@peculiar/asn1-schema@2.5.0':
     resolution: {integrity: sha512-YM/nFfskFJSlHqv59ed6dZlLZqtZQwjRVJ4bBAiWV08Oc+1rSd5lDZcBEx0lGDHfSoH3UziI2pXt2UM33KerPQ==}
+
+  '@peculiar/asn1-schema@2.7.0':
+    resolution: {integrity: sha512-W8ZfWzLmQnrcky+eh3tni4IozMdqBDiHWU0N+vve/UGjMaUs8c0L7A2oEdkBXS8rTpWDpK/aoI3DG/L/hxmxPg==}
 
   '@peculiar/asn1-x509-attr@2.5.0':
     resolution: {integrity: sha512-9f0hPOxiJDoG/bfNLAFven+Bd4gwz/VzrCIIWc1025LEI4BXO0U5fOCTNDPbbp2ll+UzqKsZ3g61mpBp74gk9A==}
 
+  '@peculiar/asn1-x509-attr@2.7.0':
+    resolution: {integrity: sha512-NS8e7SOgXipkzUPLF/sce7ukpMpWjhxYsH0n6Y+bHYo4TTxOb95Zv7hqwSuL212mj5YxovjdOKQOgH1As3E94w==}
+
   '@peculiar/asn1-x509@2.5.0':
     resolution: {integrity: sha512-CpwtMCTJvfvYTFMuiME5IH+8qmDe3yEWzKHe7OOADbGfq7ohxeLaXwQo0q4du3qs0AII3UbLCvb9NF/6q0oTKQ==}
 
+  '@peculiar/asn1-x509@2.7.0':
+    resolution: {integrity: sha512-mUn9RRrkGDnG4ALfunDmzyRW5dg+sWCj/pfnCCqEHYbkGxEpvUt6iVJv8Yw1cyp6SWZ26ZE5oSmI5SqEaen15g==}
+
+  '@peculiar/utils@2.0.3':
+    resolution: {integrity: sha512-+oL3HPFRIZ1St2K50lWCXiioIgSoxzz7R1J3uF6neO2yl1sgmpgY6XXJH4BdpoDkMWznQTeYF6oWNDZLCdQ4eQ==}
+
   '@peculiar/x509@1.14.0':
     resolution: {integrity: sha512-Yc4PDxN3OrxUPiXgU63c+ZRXKGE8YKF2McTciYhUHFtHVB0KMnjeFSU0qpztGhsp4P0uKix4+J2xEpIEDu8oXg==}
+
+  '@peculiar/x509@1.14.3':
+    resolution: {integrity: sha512-C2Xj8FZ0uHWeCXXqX5B4/gVFQmtSkiuOolzAgutjTfseNOHT3pUjljDZsTSxXFGgio54bCzVFqmEOUrIVk8RDA==}
+    engines: {node: '>=20.0.0'}
 
   '@pinojs/redact@0.4.0':
     resolution: {integrity: sha512-k2ENnmBugE/rzQfEcdWHcCY+/FM3VLzH9cYEsbdsoqrvzAKRhUZeRNhAZvB8OitQJ1TBed3yqWtdjzS6wJKBwg==}
@@ -17655,6 +17789,12 @@ packages:
     cpu: [arm64]
     os: [android]
 
+  '@rolldown/binding-android-arm64@1.0.0-rc.18':
+    resolution: {integrity: sha512-lIDyUAfD7U3+BWKzdxMbJcsYHuqXqmGz40aeRqvuAm3y5TkJSYTBW2RDrn65DJFPQqVjUAUqq5uz8urzQ8aBdQ==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [arm64]
+    os: [android]
+
   '@rolldown/binding-android-arm64@1.0.0-rc.9':
     resolution: {integrity: sha512-lcJL0bN5hpgJfSIz/8PIf02irmyL43P+j1pTCfbD1DbLkmGRuFIA4DD3B3ZOvGqG0XiVvRznbKtN0COQVaKUTg==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -17663,6 +17803,12 @@ packages:
 
   '@rolldown/binding-darwin-arm64@1.0.0':
     resolution: {integrity: sha512-6XcD+8k0gPVItNagEw78/qqcBDwKcwDYS8V2hRmVsfUSIrd8cWe/CBvRDI5toqFyPfj+FJr6t8U6Xj2P2prEew==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@rolldown/binding-darwin-arm64@1.0.0-rc.18':
+    resolution: {integrity: sha512-apJq2ktnGp27nSInMR5Vcj8kY6xJzDAvfdIFlpDcAK/w4cDO58qVoi1YQsES/SKiFNge/6e4CUzgjfHduYqWpQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [darwin]
@@ -17679,6 +17825,12 @@ packages:
     cpu: [x64]
     os: [darwin]
 
+  '@rolldown/binding-darwin-x64@1.0.0-rc.18':
+    resolution: {integrity: sha512-5Ofot8xbs+pxRHJqm9/9N/4sTQOvdrwEsmPE9pdLEEoAbdZtG6F2LMDfO1sp6ZAtXJuJV/21ew2srq3W8NXB5g==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [x64]
+    os: [darwin]
+
   '@rolldown/binding-darwin-x64@1.0.0-rc.9':
     resolution: {integrity: sha512-iwtmmghy8nhfRGeNAIltcNXzD0QMNaaA5U/NyZc1Ia4bxrzFByNMDoppoC+hl7cDiUq5/1CnFthpT9n+UtfFyg==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -17687,6 +17839,12 @@ packages:
 
   '@rolldown/binding-freebsd-x64@1.0.0':
     resolution: {integrity: sha512-jjQMDvvwSOuhOwMszD/klSOjyWMM3zI64hWTj9KT5x4MxRbZAf+7vLQ6qouRhtsLVFHr3f0ILaJAfgENPiQdAQ==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@rolldown/binding-freebsd-x64@1.0.0-rc.18':
+    resolution: {integrity: sha512-7h8eeOTT1eyqJyx64BFCnWZpNm486hGWt2sqeLLgDxA0xI1oGZ9H7gK1S85uNGmBhkdPwa/6reTxfFFKvIsebw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [freebsd]
@@ -17703,6 +17861,12 @@ packages:
     cpu: [arm]
     os: [linux]
 
+  '@rolldown/binding-linux-arm-gnueabihf@1.0.0-rc.18':
+    resolution: {integrity: sha512-eRcm/HVt9U/JFu5RKAEKwGQYtDCKWLiaH6wOnsSEp6NMBb/3Os8LgHZlNyzMpFVNmiiMFlfb2zEnebfzJrHFmg==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [arm]
+    os: [linux]
+
   '@rolldown/binding-linux-arm-gnueabihf@1.0.0-rc.9':
     resolution: {integrity: sha512-CsjTmTwd0Hri6iTw/DRMK7kOZ7FwAkrO4h8YWKoX/kcj833e4coqo2wzIFywtch/8Eb5enQ/lwLM7w6JX1W5RQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -17711,6 +17875,13 @@ packages:
 
   '@rolldown/binding-linux-arm64-gnu@1.0.0':
     resolution: {integrity: sha512-n7Ofp0mx+aB2cC+Sdy5YtMnXtY9lchnHbY+3Yt0uq9JsWQExf4f5Whu0tK0R8Jdc9S6RchTHjIFY7uc92puOVQ==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  '@rolldown/binding-linux-arm64-gnu@1.0.0-rc.18':
+    resolution: {integrity: sha512-SOrT/cT4ukTmgnrEz/Hg3m7LBnuCLW9psDeMKrimRWY4I8DmnO7Lco8W2vtqPmMkbVu8iJ+g4GFLVLLOVjJ9DQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [linux]
@@ -17730,6 +17901,13 @@ packages:
     os: [linux]
     libc: [musl]
 
+  '@rolldown/binding-linux-arm64-musl@1.0.0-rc.18':
+    resolution: {integrity: sha512-QWjdxN1HJCpBTAcZ5N5F7wju3gVPzRzSpmGzx7na0c/1qpN9CFil+xt+l9lV/1M6/gqHSNXCiqPfwhVJPeLnug==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
   '@rolldown/binding-linux-arm64-musl@1.0.0-rc.9':
     resolution: {integrity: sha512-JA1QRW31ogheAIRhIg9tjMfsYbglXXYGNPLdPEYrwFxdbkQCAzvpSCSHCDWNl4hTtrol8WeboCSEpjdZK8qrCg==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -17739,6 +17917,13 @@ packages:
 
   '@rolldown/binding-linux-ppc64-gnu@1.0.0':
     resolution: {integrity: sha512-JEwwOPcwTLAcpDQlqSmjEmfs63xJnSiUNIGvLcDLUHCWK4XowpS/7c7tUsUH6uT/ct6bMUTdXKfI8967FYj6mg==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [ppc64]
+    os: [linux]
+    libc: [glibc]
+
+  '@rolldown/binding-linux-ppc64-gnu@1.0.0-rc.18':
+    resolution: {integrity: sha512-ugCOyj7a4d9h3q9B+wXmf6g3a68UsjGh6dob5DHevHGMwDUbhsYNbSPxJsENcIttJZ9jv7qGM2UesLw5jqIhdg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [ppc64]
     os: [linux]
@@ -17758,6 +17943,13 @@ packages:
     os: [linux]
     libc: [glibc]
 
+  '@rolldown/binding-linux-s390x-gnu@1.0.0-rc.18':
+    resolution: {integrity: sha512-kKWRhbsotpXkGbcd5dllUWg5gEXcDAa8u5YnP9AV5DYNbvJHGzzuwv7dpmhc8NqKMJldl0a+x76IHbspEpEmdA==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [s390x]
+    os: [linux]
+    libc: [glibc]
+
   '@rolldown/binding-linux-s390x-gnu@1.0.0-rc.9':
     resolution: {integrity: sha512-OalO94fqj7IWRn3VdXWty75jC5dk4C197AWEuMhIpvVv2lw9fiPhud0+bW2ctCxb3YoBZor71QHbY+9/WToadA==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -17767,6 +17959,13 @@ packages:
 
   '@rolldown/binding-linux-x64-gnu@1.0.0':
     resolution: {integrity: sha512-Dfn7iak9BcMMePxcoJfpSbWqnEyrp/dRF63/8qW/eHBdOZov6x5aShLLEYGYdIeSJ6vMLK/XCVB+lGIxm41bQA==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  '@rolldown/binding-linux-x64-gnu@1.0.0-rc.18':
+    resolution: {integrity: sha512-uCo8ElcCIAMyYAZyuIZ81oFkhTSIllNvUCHCAlbhlN4ji3uC28h7IIdlXyIvGO7HsuqnV9p3rD/bpH7XhIyhRw==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [linux]
@@ -17786,6 +17985,13 @@ packages:
     os: [linux]
     libc: [musl]
 
+  '@rolldown/binding-linux-x64-musl@1.0.0-rc.18':
+    resolution: {integrity: sha512-XNOQZtuE6yUIvx4rwGemwh8kpL1xvU41FXy/s9K7T/3JVcqGzo3NfKM2HrbrGgfPYGFW42f07Wk++aOC6B9NWA==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
   '@rolldown/binding-linux-x64-musl@1.0.0-rc.9':
     resolution: {integrity: sha512-UzYnKCIIc4heAKgI4PZ3dfBGUZefGCJ1TPDuLHoCzgrMYPb5Rv6TLFuYtyM4rWyHM7hymNdsg5ik2C+UD9VDbA==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -17795,6 +18001,12 @@ packages:
 
   '@rolldown/binding-openharmony-arm64@1.0.0':
     resolution: {integrity: sha512-ouJs8VcUomfLfpbUECqFMRqdV4x6aeAK3MA4m6vTrJJjKyWTV5KnxZx7Jd9G+GlDaQQxubcba00x16OyJ1meig==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [arm64]
+    os: [openharmony]
+
+  '@rolldown/binding-openharmony-arm64@1.0.0-rc.18':
+    resolution: {integrity: sha512-tSn/kzrfa7tNOXr7sEacDBN4YsIqTyLqh45IO0nHDwtpKIDNDJr+VFojt+4klSpChxB29JLyduSsE0MKEwa65A==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [openharmony]
@@ -17810,6 +18022,11 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [wasm32]
 
+  '@rolldown/binding-wasm32-wasi@1.0.0-rc.18':
+    resolution: {integrity: sha512-+J9YGmc+czgqlhYmwun3S3O0FIZhsH8ep2456xwjAdIOmuJxM7xz4P4PtrxU+Bz17a/5bqPA8o3HAAoX0teUdg==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [wasm32]
+
   '@rolldown/binding-wasm32-wasi@1.0.0-rc.9':
     resolution: {integrity: sha512-rgFN6sA/dyebil3YTlL2evvi/M+ivhfnyxec7AccTpRPccno/rPoNlqybEZQBkcbZu8Hy+eqNJCqfBR8P7Pg8g==}
     engines: {node: '>=14.0.0'}
@@ -17817,6 +18034,12 @@ packages:
 
   '@rolldown/binding-win32-arm64-msvc@1.0.0':
     resolution: {integrity: sha512-yYK02n8Rngo+gbm1y6G0+7jk1sJ/2Wt7K0me0Y7k/ErBpyf+LJ2gFpqWVTcRV1rUepBlQRmpgWkTQCiiwrK0Ow==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [arm64]
+    os: [win32]
+
+  '@rolldown/binding-win32-arm64-msvc@1.0.0-rc.18':
+    resolution: {integrity: sha512-zsu47DgU0FQzSwi6sU9dZoEdUv7pc1AptSEz/Z8HBg54sV0Pbs3N0+CrIbTsgiu6EyoaNN9CHboqbLaz9lhOyQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [arm64]
     os: [win32]
@@ -17829,6 +18052,12 @@ packages:
 
   '@rolldown/binding-win32-x64-msvc@1.0.0':
     resolution: {integrity: sha512-14bpChMahXRRXiTwahSl+zzHPW6qQTXtkMuJBFlbo+pqSAews2d4BdCSHfrJ/MBsCZtpmTafsY+1QhBzitcmdg==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    cpu: [x64]
+    os: [win32]
+
+  '@rolldown/binding-win32-x64-msvc@1.0.0-rc.18':
+    resolution: {integrity: sha512-7H+3yqGgmnlDTRRhw/xpYY9J1kf4GC681nVc4GqKhExZTDrVVrV2tsOR9kso0fvgBdcTCcQShx4SLLoHgaLwhg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     cpu: [x64]
     os: [win32]
@@ -17848,8 +18077,8 @@ packages:
   '@rolldown/pluginutils@1.0.0-beta.27':
     resolution: {integrity: sha512-+d0F4MKMCbeVUJwG96uQ4SgAznZNSq93I3V+9NHA4OpvqG8mRCpGdKmK8l/dl02h2CCDHwW2FqilnTyDcAnqjA==}
 
-  '@rolldown/pluginutils@1.0.0-beta.40':
-    resolution: {integrity: sha512-s3GeJKSQOwBlzdUrj4ISjJj5SfSh+aqn0wjOar4Bx95iV1ETI7F6S/5hLcfAxZ9kXDcyrAkxPlqmd1ZITttf+w==}
+  '@rolldown/pluginutils@1.0.0-rc.18':
+    resolution: {integrity: sha512-CUY5Mnhe64xQBGZEEXQ5WyZwsc1JU3vAZLIxtrsBt3LO6UOb+C8GunVKqe9sT8NeWb4lqSaoJtp2xo6GxT1MNw==}
 
   '@rolldown/pluginutils@1.0.0-rc.2':
     resolution: {integrity: sha512-izyXV/v+cHiRfozX62W9htOAvwMo4/bXKDrQ+vom1L1qRuexPock/7VZDAhnpHCLNejd3NJ6hiab+tO0D44Rgw==}
@@ -17862,6 +18091,9 @@ packages:
 
   '@rolldown/pluginutils@1.0.0-rc.9':
     resolution: {integrity: sha512-w6oiRWgEBl04QkFZgmW+jnU1EC9b57Oihi2ot3HNWIQRqgHp5PnYDia5iZ5FF7rpa4EQdiqMDXjlqKGXBhsoXw==}
+
+  '@rolldown/pluginutils@1.0.1':
+    resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
 
   '@rollup/plugin-alias@6.0.0':
     resolution: {integrity: sha512-tPCzJOtS7uuVZd+xPhoy5W4vThe6KWXNmsFCNktaAh5RTqcLiSfT4huPQIXkgJ6YCOjJHvecOAzQxLFhPxKr+g==}
@@ -18631,75 +18863,89 @@ packages:
   '@swc-node/sourcemap-support@0.6.1':
     resolution: {integrity: sha512-ovltDVH5QpdHXZkW138vG4+dgcNsxfwxHVoV6BtmTbz2KKl1A8ZSlbdtxzzfNjCjbpayda8Us9eMtcHobm38dA==}
 
-  '@swc/core-darwin-arm64@1.10.15':
-    resolution: {integrity: sha512-zFdZ6/yHqMCPk7OhLFqHy/MQ1EqJhcZMpNHd1gXYT7VRU3FaqvvKETrUlG3VYl65McPC7AhMRfXPyJ0JO/jARQ==}
+  '@swc/core-darwin-arm64@1.15.33':
+    resolution: {integrity: sha512-N+L0uXhuO7FIfzqwgxmzv0zIpV0qEp8wPX3QQs2p4atjMoywup2JTeDlXPw+z9pWJGCae3JjM+tZ6myclI+2gA==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@swc/core-darwin-x64@1.10.15':
-    resolution: {integrity: sha512-8g4yiQwbr8fxOOjKXdot0dEkE5zgE8uNZudLy/ZyAhiwiZ8pbJ8/wVrDOu6dqbX7FBXAoDnvZ7fwN1jk4C8jdA==}
+  '@swc/core-darwin-x64@1.15.33':
+    resolution: {integrity: sha512-/Il4QHSOhV4FekbsDtkrNmKbsX26oSysvgrRswa/RYOHXAkwXDbB4jaeKq6PsJLSPkzJ2KzQ061gtBnk0vNHfA==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [darwin]
 
-  '@swc/core-linux-arm-gnueabihf@1.10.15':
-    resolution: {integrity: sha512-rl+eVOltl2+7WXOnvmWBpMgh6aO13G5x0U0g8hjwlmD6ku3Y9iRcThpOhm7IytMEarUp5pQxItNoPq+VUGjVHg==}
+  '@swc/core-linux-arm-gnueabihf@1.15.33':
+    resolution: {integrity: sha512-C64hBnBxq4viOPQ8hlx+2lJ23bzZBGnjw7ryALmS+0Q3zHmwO8lw1/DArLENw4Q18/0w5wdEO1k3m1wWNtKGqQ==}
     engines: {node: '>=10'}
     cpu: [arm]
     os: [linux]
 
-  '@swc/core-linux-arm64-gnu@1.10.15':
-    resolution: {integrity: sha512-qxWEQeyAJMWJqjaN4hi58WMpPdt3Tn0biSK9CYRegQtvZWCbewr6v2agtSu5AZ2rudeH6OfCWAMDQQeSgn6PJQ==}
+  '@swc/core-linux-arm64-gnu@1.15.33':
+    resolution: {integrity: sha512-TRJfnJbX3jqpxRDRoieMzRiCBS5jOmXNb3iQXmcgjFEHKLnAgK1RZRU8Cq1MsPqO4jAJp/ld1G4O3fXuxv85uw==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@swc/core-linux-arm64-musl@1.10.15':
-    resolution: {integrity: sha512-QcELd9/+HjZx0WCxRrKcyKGWTiQ0485kFb5w8waxcSNd0d9Lgk4EFfWWVyvIb5gIHpDQmhrgzI/yRaWQX4YSZQ==}
+  '@swc/core-linux-arm64-musl@1.15.33':
+    resolution: {integrity: sha512-il7tYM+CpUNzieQbwAjFT1P8zqAhmGWNAGhQZBnxurXZ0aNn+5nqYFTEUKNZl7QibtT0uQXzTZrNGHCIj6Y1Og==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@swc/core-linux-x64-gnu@1.10.15':
-    resolution: {integrity: sha512-S1+ZEEn3+a/MiMeQqQypbwTGoBG8/sPoCvpNbk+uValyygT+jSn3U0xVr45FbukpmMB+NhBMqfedMLqKA0QnJA==}
+  '@swc/core-linux-ppc64-gnu@1.15.33':
+    resolution: {integrity: sha512-ZtNBwN0Z7CFj9Il0FcPaKdjgP7URyKu/3RfH46vq+0paOBqLj4NYldD6Qo//Duif/7IOtAraUfDOmp0PLAufog==}
+    engines: {node: '>=10'}
+    cpu: [ppc64]
+    os: [linux]
+    libc: [glibc]
+
+  '@swc/core-linux-s390x-gnu@1.15.33':
+    resolution: {integrity: sha512-De1IyajoOmhOYYjw/lx66bKlyDpHZTueqwpDrWgf5O7T6d1ODeJJO9/OqMBmrBQc5C+dNnlmIufHsp4QVCWufA==}
+    engines: {node: '>=10'}
+    cpu: [s390x]
+    os: [linux]
+    libc: [glibc]
+
+  '@swc/core-linux-x64-gnu@1.15.33':
+    resolution: {integrity: sha512-mGTH0YxmUN+x6vRN/I6NOk5X0ogNktkwPnJ94IMvR7QjhRDwL0O8RXEDhyUM0YtwWrryBOqaJQBX4zruxEPRGw==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@swc/core-linux-x64-musl@1.10.15':
-    resolution: {integrity: sha512-qW+H9g/2zTJ4jP7NDw4VAALY0ZlNEKzYsEoSj/HKi7k3tYEHjMzsxjfsY9I8WZCft23bBdV3RTCPoxCshaj1CQ==}
+  '@swc/core-linux-x64-musl@1.15.33':
+    resolution: {integrity: sha512-hj628ZkSEJf6zMf5VMbYrG2O6QqyTIp2qwY6VlCjvIa9lAEZ5c2lfPblCLVGYubTeLJDxadLB/CxqQYOQABeEQ==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@swc/core-win32-arm64-msvc@1.10.15':
-    resolution: {integrity: sha512-AhRB11aA6LxjIqut+mg7qsu/7soQDmbK6MKR9nP3hgBszpqtXbRba58lr24xIbBCMr+dpo6kgEapWt+t5Po6Zg==}
+  '@swc/core-win32-arm64-msvc@1.15.33':
+    resolution: {integrity: sha512-GV2oohtN2/5+KSccl86VULu3aT+LrISC8uzgSq0FRnikpD+Zwc+sBlXmoKQ+Db6jI57ITUOIB8jRkdGMABC29g==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [win32]
 
-  '@swc/core-win32-ia32-msvc@1.10.15':
-    resolution: {integrity: sha512-UGdh430TQwbDn6KjgvRTg1fO022sbQ4yCCHUev0+5B8uoBwi9a89qAz3emy2m56C8TXxUoihW9Y9OMfaRwPXUw==}
+  '@swc/core-win32-ia32-msvc@1.15.33':
+    resolution: {integrity: sha512-gtyvzSNR8DHKfFEA2uqb8Ld1myqi6uEg2jyeUq3ikn5ytYs7H8RpZYC8mdy4NXr8hfcdJfCLXPlYaqqfBXpoEQ==}
     engines: {node: '>=10'}
     cpu: [ia32]
     os: [win32]
 
-  '@swc/core-win32-x64-msvc@1.10.15':
-    resolution: {integrity: sha512-XJzBCqO1m929qbJsOG7FZXQWX26TnEoMctS3QjuCoyBmkHxxQmZsy78KjMes1aomTcKHCyFYgrRGWgVmk7tT4Q==}
+  '@swc/core-win32-x64-msvc@1.15.33':
+    resolution: {integrity: sha512-d6fRqQSkJI+kmMEBWaDQ7TMl8+YjLYbwRUPZQ9DY0ORBJeTzOrG0twvfvlZ2xgw6jA0ScQKgfBm4vHLSLl5Hqg==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [win32]
 
-  '@swc/core@1.10.15':
-    resolution: {integrity: sha512-/iFeQuNaGdK7mfJbQcObhAhsMqLT7qgMYl7jX2GEIO+VDTejESpzAyKwaMeYXExN8D6e5BRHBCe7M5YlsuzjDA==}
+  '@swc/core@1.15.33':
+    resolution: {integrity: sha512-jOlwnFV2xhuuZeAUILGFULeR6vDPfijEJ57evfocwznQldLU3w2cZ9bSDryY9ip+AsM3r1NJKzf47V2NXebkeQ==}
     engines: {node: '>=10'}
     peerDependencies:
-      '@swc/helpers': '*'
+      '@swc/helpers': '>=0.5.17'
     peerDependenciesMeta:
       '@swc/helpers':
         optional: true
@@ -18713,8 +18959,8 @@ packages:
   '@swc/helpers@0.5.21':
     resolution: {integrity: sha512-jI/VAmtdjB/RnI8GTnokyX7Ug8c+g+ffD6QRLa6XQewtnGyukKkKSk3wLTM3b5cjt1jNh9x0jfVlagdN2gDKQg==}
 
-  '@swc/types@0.1.17':
-    resolution: {integrity: sha512-V5gRru+aD8YVyCOMAjMpWR1Ui577DD5KSJsHP8RAxopAH22jFz6GZd/qxqjO6MJHQhcsjvjOFXyDhyLQUnMveQ==}
+  '@swc/types@0.1.26':
+    resolution: {integrity: sha512-lyMwd7WGgG79RS7EERZV3T8wMdmPq3xwyg+1nmAM64kIhx5yl+juO2PYIHb7vTiPgPCj8LYjsNV2T5wiQHUEaw==}
 
   '@tailwindcss/node@4.2.2':
     resolution: {integrity: sha512-pXS+wJ2gZpVXqFaUEjojq7jzMpTGf8rU6ipJz5ovJV6PUGmlJ+jvIwGrzdHdQ80Sg+wmQxUFuoW1UAAwHNEdFA==}
@@ -19137,11 +19383,11 @@ packages:
   '@types/express-serve-static-core@5.0.6':
     resolution: {integrity: sha512-3xhRnjJPkULekpSzgtoNYYcTWgEZkp4myc+Saevii5JPnHNvHMRlBSHDbs7Bh1iPPoVTERHEZXyhyLbMEsExsA==}
 
-  '@types/express@4.17.23':
-    resolution: {integrity: sha512-Crp6WY9aTYP3qPi2wGDo9iUe/rceX01UMhnF1jmwDcKCFM6cx7YhGP/Mpr3y9AASpfHixIG0E6azCcL5OcDHsQ==}
+  '@types/express@4.17.25':
+    resolution: {integrity: sha512-dVd04UKsfpINUnK0yBoYHDF3xu7xVH4BuDotC/xGuycx4CgbP48X/KF/586bcObxT0HENHXEU8Nqtu6NR+eKhw==}
 
-  '@types/express@5.0.3':
-    resolution: {integrity: sha512-wGA0NX93b19/dZC1J18tKWVIYWyyF2ZjT9vin/NRu0qzzvfVzWjs04iq2rQ3H65vCTQYlRqs3YHfY7zjdV+9Kw==}
+  '@types/express@5.0.6':
+    resolution: {integrity: sha512-sKYVuV7Sv9fbPIt/442koC7+IIwK5olP1KWeD88e/idgoJqDm3JV/YUiPwkoKK92ylff2MGxSz1CSjsXelx0YA==}
 
   '@types/html-minifier-terser@6.1.0':
     resolution: {integrity: sha512-oh/6byDPnL1zeNXFrDXFLyZjkr1MsBG667IM792caf1L2UPOOMf65NFzjUH/ltyfwjAGfs1rsX1eftK0jC/KIg==}
@@ -19221,6 +19467,9 @@ packages:
 
   '@types/serve-static@1.15.7':
     resolution: {integrity: sha512-W8Ym+h8nhuRwaKPaDw34QUkwsGi6Rc4yYqvKFo5rm2FUEhCFbzVWrxXUxuKK8TASjWsysJY0nsmNCGhCOIsrOw==}
+
+  '@types/serve-static@2.2.0':
+    resolution: {integrity: sha512-8mam4H1NHLtu7nmtalF7eyBH14QyOASmcxHhSfEoRyr0nP/YdoesEtU+uSRvMe96TW/HPTtkoKqQLl53N7UXMQ==}
 
   '@types/sockjs@0.3.36':
     resolution: {integrity: sha512-MK9V6NzAS1+Ud7JV9lJLFqW85VbC9dq3LmwZCuBe4wBDgKC0Kj/jd8Xl+nSviU+Qc3+m7umHHyHg//2KSa0a0Q==}
@@ -20277,12 +20526,12 @@ packages:
   blake3-wasm@2.1.5:
     resolution: {integrity: sha512-F1+K8EbfOZE49dtoPtmxUQrpXaBIl3ICvasLh+nJta0xkz+9kF/7uet9fLnwKqhDrmj6g+6K3Tw9yQPUg2ka5g==}
 
-  body-parser@1.20.3:
-    resolution: {integrity: sha512-7rAxByjUMqQ3/bHJy7D6OGXvx/MMc4IqBn/X0fcM1QUcAItpZrBEYhWGem+tzXH90c+G01ypMcYJBO9Y30203g==}
+  body-parser@1.20.5:
+    resolution: {integrity: sha512-3grm+/2tUOvu2cjJkvsIxrv/wVpfXQW4PsQHYm7yk4vfpu7Ekl6nEsYBoJUL6qDwZUx8wUhQ8tR2qz+ad9c9OA==}
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
 
-  body-parser@2.2.0:
-    resolution: {integrity: sha512-02qvAaxv8tp7fBa/mw1ga98OGm+eCbqzJOKoRt70sLmfEEi+jyBYVTDGfCL/k06/4EMk/z01gCe7HoCH/f2LTg==}
+  body-parser@2.2.2:
+    resolution: {integrity: sha512-oP5VkATKlNwcgvxi0vM0p/D3n2C3EReYVX+DNYs5TjZFn/oQt2j+4sVJtSMr18pdRr8wjTcBl6LoV+FUwzPmNA==}
     engines: {node: '>=18'}
 
   bonjour-service@1.3.0:
@@ -20346,6 +20595,10 @@ packages:
   bytes@3.1.2:
     resolution: {integrity: sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==}
     engines: {node: '>= 0.8'}
+
+  bytestreamjs@2.0.1:
+    resolution: {integrity: sha512-U1Z/ob71V/bXfVABvNr/Kumf5VyeQRBEm6Txb0PQ6S7V5GpBM3w4Cbqz/xPDicR5tN0uvDifng8C+5qECeGwyQ==}
+    engines: {node: '>=6.0.0'}
 
   c12@3.1.0:
     resolution: {integrity: sha512-uWoS8OU1MEIsOv8p/5a82c3H31LsWVR5qiyXVfBNOzfffjUWtPnhAb4BYI2uG2HfGmZmFjCtui5XNWaps+iFuw==}
@@ -20600,6 +20853,10 @@ packages:
     resolution: {integrity: sha512-k6WLKfunuqCYD3t6AsuPGvQWaKwuLLh2/xHNcX4qE+vIfDNXpSqnrhwA7O53R7WVQUnt8dVAIW+YHr7xTgOgGA==}
     engines: {node: '>= 0.8.0'}
 
+  compression@1.8.1:
+    resolution: {integrity: sha512-9mAqGPHLakhCLeNyxPkK4xVo746zQ/czLH1Ky+vkitMnWfWZps8r0qXuwhwizagCRttsL4lfG4pIOvaWLpAP0w==}
+    engines: {node: '>= 0.8.0'}
+
   computeds@0.0.1:
     resolution: {integrity: sha512-7CEBgcMjVmitjYo5q8JTJVra6X5mQ20uTThdK+0kR7UEaDrAWEQcRiBtWJzga4eRpP6afNwwLsX2SET2JhVB1Q==}
 
@@ -20733,10 +20990,6 @@ packages:
   cookie-signature@1.2.2:
     resolution: {integrity: sha512-D76uU73ulSXrD1UXF4KE2TMxVVwhsnCgfAyTg9k8P6KGZjlXKrOLe4dJQKI3Bxi5wjesZoFXJWElNWBjPZMbhg==}
     engines: {node: '>=6.6.0'}
-
-  cookie@0.7.1:
-    resolution: {integrity: sha512-6DnInpx7SJ2AK3+CTUE/ZM0vWTUboZCegxhC2xiIydHR9jNuTAASBrfEpHhiGOZw/nX51bHt6YQl8jsGo4y/0w==}
-    engines: {node: '>= 0.6'}
 
   cookie@0.7.2:
     resolution: {integrity: sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==}
@@ -21661,12 +21914,12 @@ packages:
     resolution: {integrity: sha512-knvyeauYhqjOYvQ66MznSMs83wmHrCycNEN6Ao+2AeYEfxUIkuiVxdEa1qlGEPK+We3n0THiDciYSsCcgW/DoA==}
     engines: {node: '>=12.0.0'}
 
-  express@4.21.2:
-    resolution: {integrity: sha512-28HqgMZAmih1Czt9ny7qr6ek2qddF4FclbMzwhCREB6OFfH+rXAnuNCwo1/wFvrtbgsQDb4kSbX9de9lFbrXnA==}
+  express@4.22.2:
+    resolution: {integrity: sha512-IuL+Elrou2ZvCFHs18/CIzy2Nzvo25nZ1/D2eIZlz7c+QUayAcYoiM2BthCjs+EBHVpjYjcuLDAiCWgeIX3X1Q==}
     engines: {node: '>= 0.10.0'}
 
-  express@5.1.0:
-    resolution: {integrity: sha512-DT9ck5YIRU+8GYzzU5kT3eHGA5iL+1Zd0EutOmTE9Dtk+Tvuzd23VBU+ec7HPNSTxXYO55gPV/hq4pSBJDjFpA==}
+  express@5.2.1:
+    resolution: {integrity: sha512-hIS4idWWai69NezIdRt2xFVofaF4j+6INOpJlVOLDO8zXGpUVEVzIYk12UUi2JzjEzWL3IOAxcTubgz9Po0yXw==}
     engines: {node: '>= 18'}
 
   exsolve@1.0.7:
@@ -22239,6 +22492,10 @@ packages:
     resolution: {integrity: sha512-FtwrG/euBzaEjYeRqOgly7G0qviiXoJWnvEH2Z1plBdXgbyjv34pHTSb9zoeHMyDy33+DWy5Wt9Wo+TURtOYSQ==}
     engines: {node: '>= 0.8'}
 
+  http-errors@2.0.1:
+    resolution: {integrity: sha512-4FbRdAX+bSdmo4AUFuS0WNiPz8NgFt+r8ThgNWmlrjQjt1Q7ZR9+zTlce2859x4KSXrwIsaeTqDoKQmtP8pLmQ==}
+    engines: {node: '>= 0.8'}
+
   http-parser-js@0.5.9:
     resolution: {integrity: sha512-n1XsPy3rXVxlqxVioEWdC+0+M+SQw0DpJynwtOPo1X+ZlvdzTLtDBIJJlDQTnwZIFJrZSzSGmIOUdP8tu+SgLw==}
 
@@ -22246,8 +22503,8 @@ packages:
     resolution: {integrity: sha512-T1gkAiYYDWYx3V5Bmyu7HcfcvL7mUrTWiM6yOfa3PIphViJ/gFPbvidQ+veqSOHci/PxBcDabeUNCzpOODJZig==}
     engines: {node: '>= 14'}
 
-  http-proxy-middleware@2.0.7:
-    resolution: {integrity: sha512-fgVY8AV7qU7z/MmXJ/rxwbrtQH4jBQ9m7kp3llF0liB7glmFeVZFBepQb32T3y8n8k2+AEYuMPCpinYW+/CuRA==}
+  http-proxy-middleware@2.0.9:
+    resolution: {integrity: sha512-c1IyJYLYppU574+YI7R4QyX2ystMtVXZwIdzazUIPIJsHuWNd+mho2j+bKoHftndicGj9yh+xjd+l0yj7VeT1Q==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       '@types/express': ^4.17.13
@@ -23630,6 +23887,10 @@ packages:
     resolution: {integrity: sha512-pZAE+FJLoyITytdqK0U5s+FIpjN0JP3OzFi/u8Rx+EV5/W+JTWGXG8xFzevE7AjBfDqHv/8vL8qQsIhHnqRkrA==}
     engines: {node: '>= 0.8'}
 
+  on-headers@1.1.0:
+    resolution: {integrity: sha512-737ZY3yNnXy37FHkQxPzt4UZ2UWPWiCZWLvFZ4fu5cueciegX0zGPnrlY6bwRg4FdQOe9YU8MkmJwGhoMybl8A==}
+    engines: {node: '>= 0.8'}
+
   on-net-listen@1.1.2:
     resolution: {integrity: sha512-y1HRYy8s/RlcBvDUwKXSmkODMdx4KSuIvloCnQYJ2LdBBC1asY4HtfhXwe3UWknLakATZDnbzht2Ijw3M1EqFg==}
     engines: {node: '>=9.4.0 || ^8.9.4'}
@@ -23904,6 +24165,10 @@ packages:
   pkg-types@2.3.0:
     resolution: {integrity: sha512-SIqCzDRg0s9npO5XQ3tNZioRY1uK06lA41ynBC1YmFTmnY6FjUjVt6s4LoADmwoig1qqD0oK8h1p/8mlMx8Oig==}
 
+  pkijs@3.4.0:
+    resolution: {integrity: sha512-emEcLuomt2j03vxD54giVB4SxTjnsqkU692xZOZXHDVoYyypEm+b3jpiTcc+Cf+myooc+/Ly0z01jqeNHVgJGw==}
+    engines: {node: '>=16.0.0'}
+
   playwright-core@1.58.0:
     resolution: {integrity: sha512-aaoB1RWrdNi3//rOeKuMiS65UCcgOVljU46At6eFcOFPFHWtd2weHRRow6z/n+Lec0Lvu0k9ZPKJSjPugikirw==}
     engines: {node: '>=18'}
@@ -24147,12 +24412,12 @@ packages:
     resolution: {integrity: sha512-pMpnA0qRdFp32b1sJl1wOJNxZLQ2cbQx+k6tjNtZ8CpvVhNqEPRgivZ2WOUev2YMajecdH7ctUPDvEe87nariQ==}
     engines: {node: '>=6.0.0'}
 
-  qs@6.13.0:
-    resolution: {integrity: sha512-+38qI9SOr8tfZ4QmJNplMUxqjbe7LKvvZgWdExBOmd+egZTtjLB67Gu0HRX3u/XOq7UU2Nx6nsjvS16Z9uwfpg==}
-    engines: {node: '>=0.6'}
-
   qs@6.14.0:
     resolution: {integrity: sha512-YWWTjgABSKcvs/nWBi9PycY/JiPJqOD4JA6o9Sej2AtvSGarXxKC3OQSk4pAarbdQlKAh5D4FCQkJNkW+GAn3w==}
+    engines: {node: '>=0.6'}
+
+  qs@6.15.2:
+    resolution: {integrity: sha512-Rzq0KEyX/w/tEybncDgdkZrJgVUsUMk3xjh3t5bv3S1HTAtg+uOYt72+ZfwiQwKdysThkTBdL/rTi6HDmX9Ddw==}
     engines: {node: '>=0.6'}
 
   quansync@0.2.11:
@@ -24193,8 +24458,8 @@ packages:
     resolution: {integrity: sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==}
     engines: {node: '>= 0.6'}
 
-  raw-body@2.5.2:
-    resolution: {integrity: sha512-8zGqypfENjCIqGhgXToC8aB2r7YrBX+AQAfIPs/Mlk+BtPTztOvTS01NRW/3Eh60J+a48lt8qsCzirQ6loCVfA==}
+  raw-body@2.5.3:
+    resolution: {integrity: sha512-s4VSOf6yN0rvbRZGxs8Om5CWj6seneMwK3oDb4lWDH0UPhWcxwOWw5+qk24bxq87szX1ydrwylIOp2uG1ojUpA==}
     engines: {node: '>= 0.8'}
 
   raw-body@3.0.1:
@@ -24488,6 +24753,11 @@ packages:
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
 
+  rolldown@1.0.0-rc.18:
+    resolution: {integrity: sha512-phmyKBpuBdRYDf4hgyynGAYn/rDDe+iZXKVJ7WX5b1zQzpLkP5oJRPGsfJuHdzPMlyyEO/4sPW6yfSx2gf7lVg==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    hasBin: true
+
   rolldown@1.0.0-rc.9:
     resolution: {integrity: sha512-9EbgWge7ZH+yqb4d2EnELAntgPTWbfL8ajiTW+SyhJEC4qhBbkCKbqFV4Ge4zmu5ziQuVbWxb/XwLZ+RIO7E8Q==}
     engines: {node: ^20.19.0 || >=22.12.0}
@@ -24629,9 +24899,9 @@ packages:
   select-hose@2.0.0:
     resolution: {integrity: sha512-mEugaLK+YfkijB4fx0e6kImuJdCIt2LxCRcbEYPqRGCs4F2ogyfZU5IAZRdjCP8JPq2AtdNoC/Dux63d9Kiryg==}
 
-  selfsigned@2.4.1:
-    resolution: {integrity: sha512-th5B4L2U+eGLq1TVh7zNRGBapioSORUeymIydxgFpwww9d2qyKvtuPU2jJuHvYAwwqi2Y596QBL3eEqcPEYL8Q==}
-    engines: {node: '>=10'}
+  selfsigned@5.5.0:
+    resolution: {integrity: sha512-ftnu3TW4+3eBfLRFnDEkzGxSF/10BJBkaLJuBHZX0kiPS7bRdlpZGu6YGt4KngMkdTwJE6MbjavFpqHvqVt+Ew==}
+    engines: {node: '>=18'}
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
@@ -24691,10 +24961,6 @@ packages:
   serve-static@1.16.2:
     resolution: {integrity: sha512-VqpjJZKadQB/PEbEwvFdO43Ax5dFBZ2UECszz8bQ7pi7wt//PWe1P6MN7eCnjsatYtBT6EuiClbjSWP2WrIoTw==}
     engines: {node: '>= 0.8.0'}
-
-  serve-static@2.2.0:
-    resolution: {integrity: sha512-61g9pCh0Vnh7IutZjtLGGpTA355+OPn2TyDv/6ivP2h/AdAVX9azsoxmg2/M6nZeQZNYBEwIcsne1mJd9oQItQ==}
-    engines: {node: '>= 18'}
 
   serve-static@2.2.1:
     resolution: {integrity: sha512-xRXBn0pPqQTVQiC8wyQrKs2MOlX24zQ0POGaj0kultvoOCstBQM5yvOhAVSUwOMjQtTvsPWoNCHfPGwaaQJhTw==}
@@ -24933,6 +25199,10 @@ packages:
 
   statuses@2.0.1:
     resolution: {integrity: sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==}
+    engines: {node: '>= 0.8'}
+
+  statuses@2.0.2:
+    resolution: {integrity: sha512-DvEy55V3DB7uknRo+4iOGT5fP1slR8wQohVdknigZPMpMstaKJQWhwiYBACJE3Ul2pTnATihhBYnRhZQHGBiRw==}
     engines: {node: '>= 0.8'}
 
   std-env@3.10.0:
@@ -26161,8 +26431,8 @@ packages:
       webpack:
         optional: true
 
-  webpack-dev-server@5.2.0:
-    resolution: {integrity: sha512-90SqqYXA2SK36KcT6o1bvwvZfJFcmoamqeJY7+boioffX9g9C0wjjJRGUrQIuh43pb0ttX7+ssavmj/WN2RHtA==}
+  webpack-dev-server@5.2.4:
+    resolution: {integrity: sha512-GqDPGZN9bRqKBTkp4aWkobDDHMsrXKoGSdOH56smIri8qR0JG8gfL8/v/f/OZR3/OKXjG8uwJbFVhKm/FNU/UA==}
     engines: {node: '>= 18.12.0'}
     hasBin: true
     peerDependencies:
@@ -26442,8 +26712,11 @@ packages:
   zod@3.25.57:
     resolution: {integrity: sha512-6tgzLuwVST5oLUxXTmBqoinKMd3JeesgbgseXeFasKKj8Q1FCZrHnbqJOyiEvr4cVAlbug+CgIsmJ8cl/pU5FA==}
 
-  zod@4.1.12:
-    resolution: {integrity: sha512-JInaHOamG8pt5+Ey8kGmdcAcg3OL9reK8ltczgHTAwNhMys/6ThXHityHxVV2p3fkw/c+MAvBHFVYHFZDmjMCQ==}
+  zod@3.25.76:
+    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
+
+  zod@4.4.3:
+    resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
 
   zustand@5.0.12:
     resolution: {integrity: sha512-i77ae3aZq4dhMlRhJVCYgMLKuSiZAaUPAct2AksxQ+gOtimhGMdXljRT21P5BNpeT4kXlLIckvkPM029OljD7g==}
@@ -27055,7 +27328,7 @@ snapshots:
   '@better-auth/core@1.3.27':
     dependencies:
       better-call: 1.0.19
-      zod: 4.1.12
+      zod: 4.4.3
 
   '@better-auth/utils@0.3.0': {}
 
@@ -27402,14 +27675,14 @@ snapshots:
       better-auth: 1.3.27(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(solid-js@1.9.12)(vue@3.5.25(typescript@6.0.2))
       common-tags: 1.8.2
       convex: 1.28.2(@clerk/clerk-react@5.59.3(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)
-      convex-helpers: 0.1.104(@standard-schema/spec@1.1.0)(convex@1.28.2(@clerk/clerk-react@5.59.3(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3))(hono@4.7.10)(react@19.2.3)(typescript@6.0.2)(zod@3.25.57)
+      convex-helpers: 0.1.104(@standard-schema/spec@1.1.0)(convex@1.28.2(@clerk/clerk-react@5.59.3(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3))(hono@4.7.10)(react@19.2.3)(typescript@6.0.2)(zod@3.25.76)
       jose: 6.1.0
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
       remeda: 2.32.0
       semver: 7.7.3
       type-fest: 4.41.0
-      zod: 3.25.57
+      zod: 3.25.76
     transitivePeerDependencies:
       - '@standard-schema/spec'
       - hono
@@ -27503,19 +27776,8 @@ snapshots:
     dependencies:
       '@emnapi/wasi-threads': 1.2.1
       tslib: 2.8.1
-    optional: true
-
-  '@emnapi/core@1.9.2':
-    dependencies:
-      '@emnapi/wasi-threads': 1.2.1
-      tslib: 2.8.1
 
   '@emnapi/runtime@1.10.0':
-    dependencies:
-      tslib: 2.8.1
-    optional: true
-
-  '@emnapi/runtime@1.9.2':
     dependencies:
       tslib: 2.8.1
 
@@ -28709,7 +28971,7 @@ snapshots:
 
   '@img/sharp-wasm32@0.34.5':
     dependencies:
-      '@emnapi/runtime': 1.9.2
+      '@emnapi/runtime': 1.10.0
     optional: true
 
   '@img/sharp-win32-arm64@0.34.4':
@@ -29193,8 +29455,8 @@ snapshots:
 
   '@napi-rs/wasm-runtime@0.2.4':
     dependencies:
-      '@emnapi/core': 1.9.2
-      '@emnapi/runtime': 1.9.2
+      '@emnapi/core': 1.10.0
+      '@emnapi/runtime': 1.10.0
       '@tybys/wasm-util': 0.9.0
 
   '@napi-rs/wasm-runtime@1.1.3(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)':
@@ -29538,13 +29800,15 @@ snapshots:
       unixify: 1.0.0
       urlpattern-polyfill: 8.0.2
       yargs: 17.7.2
-      zod: 3.25.57
+      zod: 3.25.76
     transitivePeerDependencies:
       - encoding
       - rollup
       - supports-color
 
   '@noble/ciphers@2.0.1': {}
+
+  '@noble/hashes@1.4.0': {}
 
   '@noble/hashes@2.0.1': {}
 
@@ -29562,13 +29826,13 @@ snapshots:
 
   '@nothing-but/utils@0.17.0': {}
 
-  '@nx/devkit@22.6.5(nx@22.6.5(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.10.15(@swc/helpers@0.5.21))(@swc/types@0.1.17)(typescript@6.0.2))(@swc/core@1.10.15(@swc/helpers@0.5.21)))':
+  '@nx/devkit@22.6.5(nx@22.6.5(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.15.33(@swc/helpers@0.5.21))(@swc/types@0.1.26)(typescript@6.0.2))(@swc/core@1.15.33(@swc/helpers@0.5.21)))':
     dependencies:
       '@zkochan/js-yaml': 0.0.7
       ejs: 5.0.1
       enquirer: 2.3.6
       minimatch: 10.2.4
-      nx: 22.6.5(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.10.15(@swc/helpers@0.5.21))(@swc/types@0.1.17)(typescript@6.0.2))(@swc/core@1.10.15(@swc/helpers@0.5.21))
+      nx: 22.6.5(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.15.33(@swc/helpers@0.5.21))(@swc/types@0.1.26)(typescript@6.0.2))(@swc/core@1.15.33(@swc/helpers@0.5.21))
       semver: 7.7.3
       tslib: 2.8.1
       yargs-parser: 21.1.1
@@ -29681,7 +29945,7 @@ snapshots:
 
   '@oxc-minify/binding-wasm32-wasi@0.110.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)':
     dependencies:
-      '@napi-rs/wasm-runtime': 1.1.3(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
+      '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -29699,6 +29963,8 @@ snapshots:
   '@oxc-project/runtime@0.115.0': {}
 
   '@oxc-project/types@0.115.0': {}
+
+  '@oxc-project/types@0.128.0': {}
 
   '@oxc-project/types@0.129.0': {}
 
@@ -29817,7 +30083,7 @@ snapshots:
 
   '@oxc-transform/binding-wasm32-wasi@0.110.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)':
     dependencies:
-      '@napi-rs/wasm-runtime': 1.1.3(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
+      '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
@@ -29913,6 +30179,14 @@ snapshots:
       asn1js: 3.0.6
       tslib: 2.8.1
 
+  '@peculiar/asn1-cms@2.7.0':
+    dependencies:
+      '@peculiar/asn1-schema': 2.7.0
+      '@peculiar/asn1-x509': 2.7.0
+      '@peculiar/asn1-x509-attr': 2.7.0
+      asn1js: 3.0.6
+      tslib: 2.8.1
+
   '@peculiar/asn1-csr@2.5.0':
     dependencies:
       '@peculiar/asn1-schema': 2.5.0
@@ -29920,10 +30194,24 @@ snapshots:
       asn1js: 3.0.6
       tslib: 2.8.1
 
+  '@peculiar/asn1-csr@2.7.0':
+    dependencies:
+      '@peculiar/asn1-schema': 2.7.0
+      '@peculiar/asn1-x509': 2.7.0
+      asn1js: 3.0.6
+      tslib: 2.8.1
+
   '@peculiar/asn1-ecc@2.5.0':
     dependencies:
       '@peculiar/asn1-schema': 2.5.0
       '@peculiar/asn1-x509': 2.5.0
+      asn1js: 3.0.6
+      tslib: 2.8.1
+
+  '@peculiar/asn1-ecc@2.7.0':
+    dependencies:
+      '@peculiar/asn1-schema': 2.7.0
+      '@peculiar/asn1-x509': 2.7.0
       asn1js: 3.0.6
       tslib: 2.8.1
 
@@ -29936,10 +30224,26 @@ snapshots:
       asn1js: 3.0.6
       tslib: 2.8.1
 
+  '@peculiar/asn1-pfx@2.7.0':
+    dependencies:
+      '@peculiar/asn1-cms': 2.7.0
+      '@peculiar/asn1-pkcs8': 2.7.0
+      '@peculiar/asn1-rsa': 2.7.0
+      '@peculiar/asn1-schema': 2.7.0
+      asn1js: 3.0.6
+      tslib: 2.8.1
+
   '@peculiar/asn1-pkcs8@2.5.0':
     dependencies:
       '@peculiar/asn1-schema': 2.5.0
       '@peculiar/asn1-x509': 2.5.0
+      asn1js: 3.0.6
+      tslib: 2.8.1
+
+  '@peculiar/asn1-pkcs8@2.7.0':
+    dependencies:
+      '@peculiar/asn1-schema': 2.7.0
+      '@peculiar/asn1-x509': 2.7.0
       asn1js: 3.0.6
       tslib: 2.8.1
 
@@ -29954,10 +30258,28 @@ snapshots:
       asn1js: 3.0.6
       tslib: 2.8.1
 
+  '@peculiar/asn1-pkcs9@2.7.0':
+    dependencies:
+      '@peculiar/asn1-cms': 2.7.0
+      '@peculiar/asn1-pfx': 2.7.0
+      '@peculiar/asn1-pkcs8': 2.7.0
+      '@peculiar/asn1-schema': 2.7.0
+      '@peculiar/asn1-x509': 2.7.0
+      '@peculiar/asn1-x509-attr': 2.7.0
+      asn1js: 3.0.6
+      tslib: 2.8.1
+
   '@peculiar/asn1-rsa@2.5.0':
     dependencies:
       '@peculiar/asn1-schema': 2.5.0
       '@peculiar/asn1-x509': 2.5.0
+      asn1js: 3.0.6
+      tslib: 2.8.1
+
+  '@peculiar/asn1-rsa@2.7.0':
+    dependencies:
+      '@peculiar/asn1-schema': 2.7.0
+      '@peculiar/asn1-x509': 2.7.0
       asn1js: 3.0.6
       tslib: 2.8.1
 
@@ -29967,10 +30289,23 @@ snapshots:
       pvtsutils: 1.3.6
       tslib: 2.8.1
 
+  '@peculiar/asn1-schema@2.7.0':
+    dependencies:
+      '@peculiar/utils': 2.0.3
+      asn1js: 3.0.6
+      tslib: 2.8.1
+
   '@peculiar/asn1-x509-attr@2.5.0':
     dependencies:
       '@peculiar/asn1-schema': 2.5.0
       '@peculiar/asn1-x509': 2.5.0
+      asn1js: 3.0.6
+      tslib: 2.8.1
+
+  '@peculiar/asn1-x509-attr@2.7.0':
+    dependencies:
+      '@peculiar/asn1-schema': 2.7.0
+      '@peculiar/asn1-x509': 2.7.0
       asn1js: 3.0.6
       tslib: 2.8.1
 
@@ -29979,6 +30314,17 @@ snapshots:
       '@peculiar/asn1-schema': 2.5.0
       asn1js: 3.0.6
       pvtsutils: 1.3.6
+      tslib: 2.8.1
+
+  '@peculiar/asn1-x509@2.7.0':
+    dependencies:
+      '@peculiar/asn1-schema': 2.7.0
+      '@peculiar/utils': 2.0.3
+      asn1js: 3.0.6
+      tslib: 2.8.1
+
+  '@peculiar/utils@2.0.3':
+    dependencies:
       tslib: 2.8.1
 
   '@peculiar/x509@1.14.0':
@@ -29990,6 +30336,20 @@ snapshots:
       '@peculiar/asn1-rsa': 2.5.0
       '@peculiar/asn1-schema': 2.5.0
       '@peculiar/asn1-x509': 2.5.0
+      pvtsutils: 1.3.6
+      reflect-metadata: 0.2.2
+      tslib: 2.8.1
+      tsyringe: 4.10.0
+
+  '@peculiar/x509@1.14.3':
+    dependencies:
+      '@peculiar/asn1-cms': 2.7.0
+      '@peculiar/asn1-csr': 2.7.0
+      '@peculiar/asn1-ecc': 2.7.0
+      '@peculiar/asn1-pkcs9': 2.7.0
+      '@peculiar/asn1-rsa': 2.7.0
+      '@peculiar/asn1-schema': 2.7.0
+      '@peculiar/asn1-x509': 2.7.0
       pvtsutils: 1.3.6
       reflect-metadata: 0.2.2
       tslib: 2.8.1
@@ -30853,10 +31213,16 @@ snapshots:
   '@rolldown/binding-android-arm64@1.0.0':
     optional: true
 
+  '@rolldown/binding-android-arm64@1.0.0-rc.18':
+    optional: true
+
   '@rolldown/binding-android-arm64@1.0.0-rc.9':
     optional: true
 
   '@rolldown/binding-darwin-arm64@1.0.0':
+    optional: true
+
+  '@rolldown/binding-darwin-arm64@1.0.0-rc.18':
     optional: true
 
   '@rolldown/binding-darwin-arm64@1.0.0-rc.9':
@@ -30865,10 +31231,16 @@ snapshots:
   '@rolldown/binding-darwin-x64@1.0.0':
     optional: true
 
+  '@rolldown/binding-darwin-x64@1.0.0-rc.18':
+    optional: true
+
   '@rolldown/binding-darwin-x64@1.0.0-rc.9':
     optional: true
 
   '@rolldown/binding-freebsd-x64@1.0.0':
+    optional: true
+
+  '@rolldown/binding-freebsd-x64@1.0.0-rc.18':
     optional: true
 
   '@rolldown/binding-freebsd-x64@1.0.0-rc.9':
@@ -30877,10 +31249,16 @@ snapshots:
   '@rolldown/binding-linux-arm-gnueabihf@1.0.0':
     optional: true
 
+  '@rolldown/binding-linux-arm-gnueabihf@1.0.0-rc.18':
+    optional: true
+
   '@rolldown/binding-linux-arm-gnueabihf@1.0.0-rc.9':
     optional: true
 
   '@rolldown/binding-linux-arm64-gnu@1.0.0':
+    optional: true
+
+  '@rolldown/binding-linux-arm64-gnu@1.0.0-rc.18':
     optional: true
 
   '@rolldown/binding-linux-arm64-gnu@1.0.0-rc.9':
@@ -30889,10 +31267,16 @@ snapshots:
   '@rolldown/binding-linux-arm64-musl@1.0.0':
     optional: true
 
+  '@rolldown/binding-linux-arm64-musl@1.0.0-rc.18':
+    optional: true
+
   '@rolldown/binding-linux-arm64-musl@1.0.0-rc.9':
     optional: true
 
   '@rolldown/binding-linux-ppc64-gnu@1.0.0':
+    optional: true
+
+  '@rolldown/binding-linux-ppc64-gnu@1.0.0-rc.18':
     optional: true
 
   '@rolldown/binding-linux-ppc64-gnu@1.0.0-rc.9':
@@ -30901,10 +31285,16 @@ snapshots:
   '@rolldown/binding-linux-s390x-gnu@1.0.0':
     optional: true
 
+  '@rolldown/binding-linux-s390x-gnu@1.0.0-rc.18':
+    optional: true
+
   '@rolldown/binding-linux-s390x-gnu@1.0.0-rc.9':
     optional: true
 
   '@rolldown/binding-linux-x64-gnu@1.0.0':
+    optional: true
+
+  '@rolldown/binding-linux-x64-gnu@1.0.0-rc.18':
     optional: true
 
   '@rolldown/binding-linux-x64-gnu@1.0.0-rc.9':
@@ -30913,16 +31303,29 @@ snapshots:
   '@rolldown/binding-linux-x64-musl@1.0.0':
     optional: true
 
+  '@rolldown/binding-linux-x64-musl@1.0.0-rc.18':
+    optional: true
+
   '@rolldown/binding-linux-x64-musl@1.0.0-rc.9':
     optional: true
 
   '@rolldown/binding-openharmony-arm64@1.0.0':
     optional: true
 
+  '@rolldown/binding-openharmony-arm64@1.0.0-rc.18':
+    optional: true
+
   '@rolldown/binding-openharmony-arm64@1.0.0-rc.9':
     optional: true
 
   '@rolldown/binding-wasm32-wasi@1.0.0':
+    dependencies:
+      '@emnapi/core': 1.10.0
+      '@emnapi/runtime': 1.10.0
+      '@napi-rs/wasm-runtime': 1.1.4(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
+    optional: true
+
+  '@rolldown/binding-wasm32-wasi@1.0.0-rc.18':
     dependencies:
       '@emnapi/core': 1.10.0
       '@emnapi/runtime': 1.10.0
@@ -30940,10 +31343,16 @@ snapshots:
   '@rolldown/binding-win32-arm64-msvc@1.0.0':
     optional: true
 
+  '@rolldown/binding-win32-arm64-msvc@1.0.0-rc.18':
+    optional: true
+
   '@rolldown/binding-win32-arm64-msvc@1.0.0-rc.9':
     optional: true
 
   '@rolldown/binding-win32-x64-msvc@1.0.0':
+    optional: true
+
+  '@rolldown/binding-win32-x64-msvc@1.0.0-rc.18':
     optional: true
 
   '@rolldown/binding-win32-x64-msvc@1.0.0-rc.9':
@@ -30955,7 +31364,7 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.0-beta.27': {}
 
-  '@rolldown/pluginutils@1.0.0-beta.40': {}
+  '@rolldown/pluginutils@1.0.0-rc.18': {}
 
   '@rolldown/pluginutils@1.0.0-rc.2': {}
 
@@ -30964,6 +31373,8 @@ snapshots:
   '@rolldown/pluginutils@1.0.0-rc.7': {}
 
   '@rolldown/pluginutils@1.0.0-rc.9': {}
+
+  '@rolldown/pluginutils@1.0.1': {}
 
   '@rollup/plugin-alias@6.0.0(rollup@4.56.0)':
     optionalDependencies:
@@ -31180,11 +31591,11 @@ snapshots:
       - '@babel/core'
       - supports-color
 
-  '@rsbuild/plugin-vue@1.2.2(@rsbuild/core@2.0.1)(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(vue@3.5.25(typescript@6.0.2))':
+  '@rsbuild/plugin-vue@1.2.2(@rsbuild/core@2.0.1)(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(vue@3.5.25(typescript@6.0.2))':
     dependencies:
       '@rsbuild/core': 2.0.1
-      rspack-vue-loader: 17.4.4(vue@3.5.25(typescript@6.0.2))(webpack@5.104.0(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4))
-      webpack: 5.104.0(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)
+      rspack-vue-loader: 17.4.4(vue@3.5.25(typescript@6.0.2))(webpack@5.104.0(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4))
+      webpack: 5.104.0(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)
     transitivePeerDependencies:
       - '@swc/core'
       - '@vue/compiler-sfc'
@@ -31722,16 +32133,16 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@swc-node/core@1.14.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(@swc/types@0.1.17)':
+  '@swc-node/core@1.14.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(@swc/types@0.1.26)':
     dependencies:
-      '@swc/core': 1.10.15(@swc/helpers@0.5.21)
-      '@swc/types': 0.1.17
+      '@swc/core': 1.15.33(@swc/helpers@0.5.21)
+      '@swc/types': 0.1.26
 
-  '@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.10.15(@swc/helpers@0.5.21))(@swc/types@0.1.17)(typescript@6.0.2)':
+  '@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.15.33(@swc/helpers@0.5.21))(@swc/types@0.1.26)(typescript@6.0.2)':
     dependencies:
-      '@swc-node/core': 1.14.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(@swc/types@0.1.17)
+      '@swc-node/core': 1.14.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(@swc/types@0.1.26)
       '@swc-node/sourcemap-support': 0.6.1
-      '@swc/core': 1.10.15(@swc/helpers@0.5.21)
+      '@swc/core': 1.15.33(@swc/helpers@0.5.21)
       colorette: 2.0.20
       debug: 4.4.3
       oxc-resolver: 11.19.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
@@ -31749,51 +32160,59 @@ snapshots:
       source-map-support: 0.5.21
       tslib: 2.8.1
 
-  '@swc/core-darwin-arm64@1.10.15':
+  '@swc/core-darwin-arm64@1.15.33':
     optional: true
 
-  '@swc/core-darwin-x64@1.10.15':
+  '@swc/core-darwin-x64@1.15.33':
     optional: true
 
-  '@swc/core-linux-arm-gnueabihf@1.10.15':
+  '@swc/core-linux-arm-gnueabihf@1.15.33':
     optional: true
 
-  '@swc/core-linux-arm64-gnu@1.10.15':
+  '@swc/core-linux-arm64-gnu@1.15.33':
     optional: true
 
-  '@swc/core-linux-arm64-musl@1.10.15':
+  '@swc/core-linux-arm64-musl@1.15.33':
     optional: true
 
-  '@swc/core-linux-x64-gnu@1.10.15':
+  '@swc/core-linux-ppc64-gnu@1.15.33':
     optional: true
 
-  '@swc/core-linux-x64-musl@1.10.15':
+  '@swc/core-linux-s390x-gnu@1.15.33':
     optional: true
 
-  '@swc/core-win32-arm64-msvc@1.10.15':
+  '@swc/core-linux-x64-gnu@1.15.33':
     optional: true
 
-  '@swc/core-win32-ia32-msvc@1.10.15':
+  '@swc/core-linux-x64-musl@1.15.33':
     optional: true
 
-  '@swc/core-win32-x64-msvc@1.10.15':
+  '@swc/core-win32-arm64-msvc@1.15.33':
     optional: true
 
-  '@swc/core@1.10.15(@swc/helpers@0.5.21)':
+  '@swc/core-win32-ia32-msvc@1.15.33':
+    optional: true
+
+  '@swc/core-win32-x64-msvc@1.15.33':
+    optional: true
+
+  '@swc/core@1.15.33(@swc/helpers@0.5.21)':
     dependencies:
       '@swc/counter': 0.1.3
-      '@swc/types': 0.1.17
+      '@swc/types': 0.1.26
     optionalDependencies:
-      '@swc/core-darwin-arm64': 1.10.15
-      '@swc/core-darwin-x64': 1.10.15
-      '@swc/core-linux-arm-gnueabihf': 1.10.15
-      '@swc/core-linux-arm64-gnu': 1.10.15
-      '@swc/core-linux-arm64-musl': 1.10.15
-      '@swc/core-linux-x64-gnu': 1.10.15
-      '@swc/core-linux-x64-musl': 1.10.15
-      '@swc/core-win32-arm64-msvc': 1.10.15
-      '@swc/core-win32-ia32-msvc': 1.10.15
-      '@swc/core-win32-x64-msvc': 1.10.15
+      '@swc/core-darwin-arm64': 1.15.33
+      '@swc/core-darwin-x64': 1.15.33
+      '@swc/core-linux-arm-gnueabihf': 1.15.33
+      '@swc/core-linux-arm64-gnu': 1.15.33
+      '@swc/core-linux-arm64-musl': 1.15.33
+      '@swc/core-linux-ppc64-gnu': 1.15.33
+      '@swc/core-linux-s390x-gnu': 1.15.33
+      '@swc/core-linux-x64-gnu': 1.15.33
+      '@swc/core-linux-x64-musl': 1.15.33
+      '@swc/core-win32-arm64-msvc': 1.15.33
+      '@swc/core-win32-ia32-msvc': 1.15.33
+      '@swc/core-win32-x64-msvc': 1.15.33
       '@swc/helpers': 0.5.21
 
   '@swc/counter@0.1.3': {}
@@ -31806,7 +32225,7 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@swc/types@0.1.17':
+  '@swc/types@0.1.26':
     dependencies:
       '@swc/counter': 0.1.3
 
@@ -32305,18 +32724,18 @@ snapshots:
       '@types/range-parser': 1.2.7
       '@types/send': 0.17.4
 
-  '@types/express@4.17.23':
+  '@types/express@4.17.25':
     dependencies:
       '@types/body-parser': 1.19.5
       '@types/express-serve-static-core': 4.19.6
       '@types/qs': 6.9.18
       '@types/serve-static': 1.15.7
 
-  '@types/express@5.0.3':
+  '@types/express@5.0.6':
     dependencies:
       '@types/body-parser': 1.19.5
       '@types/express-serve-static-core': 5.0.6
-      '@types/serve-static': 1.15.7
+      '@types/serve-static': 2.2.0
 
   '@types/html-minifier-terser@6.1.0': {}
 
@@ -32386,13 +32805,18 @@ snapshots:
 
   '@types/serve-index@1.9.4':
     dependencies:
-      '@types/express': 5.0.3
+      '@types/express': 5.0.6
 
   '@types/serve-static@1.15.7':
     dependencies:
       '@types/http-errors': 2.0.4
       '@types/node': 25.0.9
       '@types/send': 0.17.4
+
+  '@types/serve-static@2.2.0':
+    dependencies:
+      '@types/http-errors': 2.0.4
+      '@types/node': 25.0.9
 
   '@types/sockjs@0.3.36':
     dependencies:
@@ -33090,7 +33514,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.28.5
       '@babel/plugin-transform-typescript': 7.28.5(@babel/core@7.28.5)
-      '@rolldown/pluginutils': 1.0.0-beta.40
+      '@rolldown/pluginutils': 1.0.0
       '@vue/babel-plugin-jsx': 1.5.0(@babel/core@7.28.5)
       vite: 8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)
       vue: 3.5.25(typescript@6.0.2)
@@ -33561,20 +33985,20 @@ snapshots:
 
   '@webpack-cli/configtest@2.1.1(webpack-cli@5.1.4)(webpack@5.97.1)':
     dependencies:
-      webpack: 5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
-      webpack-cli: 5.1.4(webpack-dev-server@5.2.0)(webpack@5.97.1)
+      webpack: 5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
+      webpack-cli: 5.1.4(webpack-dev-server@5.2.4)(webpack@5.97.1)
 
   '@webpack-cli/info@2.0.2(webpack-cli@5.1.4)(webpack@5.97.1)':
     dependencies:
-      webpack: 5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
-      webpack-cli: 5.1.4(webpack-dev-server@5.2.0)(webpack@5.97.1)
+      webpack: 5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
+      webpack-cli: 5.1.4(webpack-dev-server@5.2.4)(webpack@5.97.1)
 
-  '@webpack-cli/serve@2.0.5(webpack-cli@5.1.4)(webpack-dev-server@5.2.0)(webpack@5.97.1)':
+  '@webpack-cli/serve@2.0.5(webpack-cli@5.1.4)(webpack-dev-server@5.2.4)(webpack@5.97.1)':
     dependencies:
-      webpack: 5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
-      webpack-cli: 5.1.4(webpack-dev-server@5.2.0)(webpack@5.97.1)
+      webpack: 5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
+      webpack-cli: 5.1.4(webpack-dev-server@5.2.4)(webpack@5.97.1)
     optionalDependencies:
-      webpack-dev-server: 5.2.0(webpack-cli@5.1.4)(webpack@5.97.1)
+      webpack-dev-server: 5.2.4(webpack-cli@5.1.4)(webpack@5.97.1)
 
   '@whatwg-node/disposablestack@0.0.6':
     dependencies:
@@ -33926,7 +34350,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.28.5
       find-up: 5.0.0
-      webpack: 5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
+      webpack: 5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
 
   babel-plugin-jsx-dom-expressions@0.40.3(@babel/core@7.28.5):
     dependencies:
@@ -34009,7 +34433,7 @@ snapshots:
       jose: 6.1.0
       kysely: 0.28.8
       nanostores: 1.0.1
-      zod: 4.1.12
+      zod: 4.4.3
     optionalDependencies:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)
@@ -34048,32 +34472,32 @@ snapshots:
 
   blake3-wasm@2.1.5: {}
 
-  body-parser@1.20.3:
+  body-parser@1.20.5:
     dependencies:
       bytes: 3.1.2
       content-type: 1.0.5
       debug: 2.6.9
       depd: 2.0.0
       destroy: 1.2.0
-      http-errors: 2.0.0
+      http-errors: 2.0.1
       iconv-lite: 0.4.24
       on-finished: 2.4.1
-      qs: 6.13.0
-      raw-body: 2.5.2
+      qs: 6.15.2
+      raw-body: 2.5.3
       type-is: 1.6.18
       unpipe: 1.0.0
     transitivePeerDependencies:
       - supports-color
 
-  body-parser@2.2.0:
+  body-parser@2.2.2:
     dependencies:
       bytes: 3.1.2
       content-type: 1.0.5
       debug: 4.4.3
       http-errors: 2.0.0
-      iconv-lite: 0.6.3
+      iconv-lite: 0.7.0
       on-finished: 2.4.1
-      qs: 6.14.0
+      qs: 6.15.2
       raw-body: 3.0.1
       type-is: 2.0.1
     transitivePeerDependencies:
@@ -34146,6 +34570,8 @@ snapshots:
       run-applescript: 7.0.0
 
   bytes@3.1.2: {}
+
+  bytestreamjs@2.0.1: {}
 
   c12@3.1.0:
     dependencies:
@@ -34435,6 +34861,18 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  compression@1.8.1:
+    dependencies:
+      bytes: 3.1.2
+      compressible: 2.0.18
+      debug: 2.6.9
+      negotiator: 0.6.4
+      on-headers: 1.1.0
+      safe-buffer: 5.2.1
+      vary: 1.1.2
+    transitivePeerDependencies:
+      - supports-color
+
   computeds@0.0.1: {}
 
   concat-map@0.0.1: {}
@@ -34489,7 +34927,7 @@ snapshots:
 
   convert-source-map@2.0.0: {}
 
-  convex-helpers@0.1.104(@standard-schema/spec@1.1.0)(convex@1.28.2(@clerk/clerk-react@5.59.3(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3))(hono@4.7.10)(react@19.2.3)(typescript@6.0.2)(zod@3.25.57):
+  convex-helpers@0.1.104(@standard-schema/spec@1.1.0)(convex@1.28.2(@clerk/clerk-react@5.59.3(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3))(hono@4.7.10)(react@19.2.3)(typescript@6.0.2)(zod@3.25.76):
     dependencies:
       convex: 1.28.2(@clerk/clerk-react@5.59.3(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)
     optionalDependencies:
@@ -34497,7 +34935,7 @@ snapshots:
       hono: 4.7.10
       react: 19.2.3
       typescript: 6.0.2
-      zod: 3.25.57
+      zod: 3.25.76
 
   convex-solidjs@0.0.3(@clerk/clerk-react@5.59.3(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react@19.2.3)(solid-js@1.9.12):
     dependencies:
@@ -34536,8 +34974,6 @@ snapshots:
   cookie-signature@1.0.6: {}
 
   cookie-signature@1.2.2: {}
-
-  cookie@0.7.1: {}
 
   cookie@0.7.2: {}
 
@@ -34620,7 +35056,7 @@ snapshots:
       postcss-value-parser: 4.2.0
       semver: 7.7.3
     optionalDependencies:
-      webpack: 5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
+      webpack: 5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
 
   css-select@4.3.0:
     dependencies:
@@ -35621,14 +36057,14 @@ snapshots:
 
   expect-type@1.3.0: {}
 
-  express@4.21.2:
+  express@4.22.2:
     dependencies:
       accepts: 1.3.8
       array-flatten: 1.1.1
-      body-parser: 1.20.3
+      body-parser: 1.20.5
       content-disposition: 0.5.4
       content-type: 1.0.5
-      cookie: 0.7.1
+      cookie: 0.7.2
       cookie-signature: 1.0.6
       debug: 2.6.9
       depd: 2.0.0
@@ -35644,7 +36080,7 @@ snapshots:
       parseurl: 1.3.3
       path-to-regexp: 0.1.12
       proxy-addr: 2.0.7
-      qs: 6.13.0
+      qs: 6.15.2
       range-parser: 1.2.1
       safe-buffer: 5.2.1
       send: 0.19.0
@@ -35657,15 +36093,16 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  express@5.1.0:
+  express@5.2.1:
     dependencies:
       accepts: 2.0.0
-      body-parser: 2.2.0
+      body-parser: 2.2.2
       content-disposition: 1.0.0
       content-type: 1.0.5
       cookie: 0.7.2
       cookie-signature: 1.2.2
       debug: 4.4.3
+      depd: 2.0.0
       encodeurl: 2.0.0
       escape-html: 1.0.3
       etag: 1.8.1
@@ -35682,7 +36119,7 @@ snapshots:
       range-parser: 1.2.1
       router: 2.2.0
       send: 1.2.0
-      serve-static: 2.2.0
+      serve-static: 2.2.1
       statuses: 2.0.1
       type-is: 2.0.1
       vary: 1.1.2
@@ -36272,7 +36709,7 @@ snapshots:
       pretty-error: 4.0.0
       tapable: 2.2.1
     optionalDependencies:
-      webpack: 5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
+      webpack: 5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
 
   htmlparser2@6.1.0:
     dependencies:
@@ -36305,6 +36742,14 @@ snapshots:
       statuses: 2.0.1
       toidentifier: 1.0.1
 
+  http-errors@2.0.1:
+    dependencies:
+      depd: 2.0.0
+      inherits: 2.0.4
+      setprototypeof: 1.2.0
+      statuses: 2.0.2
+      toidentifier: 1.0.1
+
   http-parser-js@0.5.9: {}
 
   http-proxy-agent@7.0.2:
@@ -36314,7 +36759,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  http-proxy-middleware@2.0.7(@types/express@4.17.23):
+  http-proxy-middleware@2.0.9(@types/express@4.17.25):
     dependencies:
       '@types/http-proxy': 1.17.15
       http-proxy: 1.18.1(debug@4.4.3)
@@ -36322,7 +36767,7 @@ snapshots:
       is-plain-obj: 3.0.0
       micromatch: 4.0.8
     optionalDependencies:
-      '@types/express': 4.17.23
+      '@types/express': 4.17.25
     transitivePeerDependencies:
       - debug
 
@@ -36920,7 +37365,7 @@ snapshots:
   launch-editor@2.9.1:
     dependencies:
       picocolors: 1.1.1
-      shell-quote: 1.8.2
+      shell-quote: 1.8.3
 
   lazystream@1.0.1:
     dependencies:
@@ -37767,7 +38212,7 @@ snapshots:
 
   nwsapi@2.2.16: {}
 
-  nx@22.6.5(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.10.15(@swc/helpers@0.5.21))(@swc/types@0.1.17)(typescript@6.0.2))(@swc/core@1.10.15(@swc/helpers@0.5.21)):
+  nx@22.6.5(@swc-node/register@1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.15.33(@swc/helpers@0.5.21))(@swc/types@0.1.26)(typescript@6.0.2))(@swc/core@1.15.33(@swc/helpers@0.5.21)):
     dependencies:
       '@napi-rs/wasm-runtime': 0.2.4
       '@yarnpkg/lockfile': 1.1.0
@@ -37816,8 +38261,8 @@ snapshots:
       '@nx/nx-linux-x64-musl': 22.6.5
       '@nx/nx-win32-arm64-msvc': 22.6.5
       '@nx/nx-win32-x64-msvc': 22.6.5
-      '@swc-node/register': 1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.10.15(@swc/helpers@0.5.21))(@swc/types@0.1.17)(typescript@6.0.2)
-      '@swc/core': 1.10.15(@swc/helpers@0.5.21)
+      '@swc-node/register': 1.11.1(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@swc/core@1.15.33(@swc/helpers@0.5.21))(@swc/types@0.1.26)(typescript@6.0.2)
+      '@swc/core': 1.15.33(@swc/helpers@0.5.21)
     transitivePeerDependencies:
       - debug
 
@@ -37882,6 +38327,8 @@ snapshots:
       ee-first: 1.1.1
 
   on-headers@1.0.2: {}
+
+  on-headers@1.1.0: {}
 
   on-net-listen@1.1.2: {}
 
@@ -38229,6 +38676,15 @@ snapshots:
       exsolve: 1.0.8
       pathe: 2.0.3
 
+  pkijs@3.4.0:
+    dependencies:
+      '@noble/hashes': 1.4.0
+      asn1js: 3.0.6
+      bytestreamjs: 2.0.1
+      pvtsutils: 1.3.6
+      pvutils: 1.1.3
+      tslib: 2.8.1
+
   playwright-core@1.58.0: {}
 
   playwright@1.58.0:
@@ -38248,7 +38704,7 @@ snapshots:
       postcss: 8.5.6
       semver: 7.7.3
     optionalDependencies:
-      webpack: 5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
+      webpack: 5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
     transitivePeerDependencies:
       - typescript
 
@@ -38484,11 +38940,11 @@ snapshots:
 
   pvutils@1.1.3: {}
 
-  qs@6.13.0:
+  qs@6.14.0:
     dependencies:
       side-channel: 1.1.0
 
-  qs@6.14.0:
+  qs@6.15.2:
     dependencies:
       side-channel: 1.1.0
 
@@ -38568,10 +39024,10 @@ snapshots:
 
   range-parser@1.2.1: {}
 
-  raw-body@2.5.2:
+  raw-body@2.5.3:
     dependencies:
       bytes: 3.1.2
-      http-errors: 2.0.0
+      http-errors: 2.0.1
       iconv-lite: 0.4.24
       unpipe: 1.0.0
 
@@ -38877,6 +39333,27 @@ snapshots:
       '@rolldown/binding-win32-arm64-msvc': 1.0.0
       '@rolldown/binding-win32-x64-msvc': 1.0.0
 
+  rolldown@1.0.0-rc.18:
+    dependencies:
+      '@oxc-project/types': 0.128.0
+      '@rolldown/pluginutils': 1.0.0-rc.18
+    optionalDependencies:
+      '@rolldown/binding-android-arm64': 1.0.0-rc.18
+      '@rolldown/binding-darwin-arm64': 1.0.0-rc.18
+      '@rolldown/binding-darwin-x64': 1.0.0-rc.18
+      '@rolldown/binding-freebsd-x64': 1.0.0-rc.18
+      '@rolldown/binding-linux-arm-gnueabihf': 1.0.0-rc.18
+      '@rolldown/binding-linux-arm64-gnu': 1.0.0-rc.18
+      '@rolldown/binding-linux-arm64-musl': 1.0.0-rc.18
+      '@rolldown/binding-linux-ppc64-gnu': 1.0.0-rc.18
+      '@rolldown/binding-linux-s390x-gnu': 1.0.0-rc.18
+      '@rolldown/binding-linux-x64-gnu': 1.0.0-rc.18
+      '@rolldown/binding-linux-x64-musl': 1.0.0-rc.18
+      '@rolldown/binding-openharmony-arm64': 1.0.0-rc.18
+      '@rolldown/binding-wasm32-wasi': 1.0.0-rc.18
+      '@rolldown/binding-win32-arm64-msvc': 1.0.0-rc.18
+      '@rolldown/binding-win32-x64-msvc': 1.0.0-rc.18
+
   rolldown@1.0.0-rc.9(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0):
     dependencies:
       '@oxc-project/types': 0.115.0
@@ -38962,11 +39439,11 @@ snapshots:
 
   rrweb-cssom@0.8.0: {}
 
-  rspack-vue-loader@17.4.4(vue@3.5.25(typescript@6.0.2))(webpack@5.104.0(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)):
+  rspack-vue-loader@17.4.4(vue@3.5.25(typescript@6.0.2))(webpack@5.104.0(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)):
     dependencies:
       chalk: 4.1.2
       watchpack: 2.4.2
-      webpack: 5.104.0(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)
+      webpack: 5.104.0(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)
     optionalDependencies:
       vue: 3.5.25(typescript@6.0.2)
 
@@ -39056,10 +39533,10 @@ snapshots:
 
   select-hose@2.0.0: {}
 
-  selfsigned@2.4.1:
+  selfsigned@5.5.0:
     dependencies:
-      '@types/node-forge': 1.3.14
-      node-forge: 1.3.1
+      '@peculiar/x509': 1.14.3
+      pkijs: 3.4.0
 
   semver@6.3.1: {}
 
@@ -39141,15 +39618,6 @@ snapshots:
       escape-html: 1.0.3
       parseurl: 1.3.3
       send: 0.19.0
-    transitivePeerDependencies:
-      - supports-color
-
-  serve-static@2.2.0:
-    dependencies:
-      encodeurl: 2.0.0
-      escape-html: 1.0.3
-      parseurl: 1.3.3
-      send: 1.2.0
     transitivePeerDependencies:
       - supports-color
 
@@ -39451,6 +39919,8 @@ snapshots:
 
   statuses@2.0.1: {}
 
+  statuses@2.0.2: {}
+
   std-env@3.10.0: {}
 
   std-env@3.9.0: {}
@@ -39519,7 +39989,7 @@ snapshots:
 
   style-loader@4.0.0(webpack@5.97.1):
     dependencies:
-      webpack: 5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
+      webpack: 5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
 
   style-to-object@1.0.8:
     dependencies:
@@ -39554,11 +40024,11 @@ snapshots:
       picocolors: 1.1.1
       sax: 1.4.1
 
-  swc-loader@0.2.6(@swc/core@1.10.15(@swc/helpers@0.5.21))(webpack@5.97.1):
+  swc-loader@0.2.6(@swc/core@1.15.33(@swc/helpers@0.5.21))(webpack@5.97.1):
     dependencies:
-      '@swc/core': 1.10.15(@swc/helpers@0.5.21)
+      '@swc/core': 1.15.33(@swc/helpers@0.5.21)
       '@swc/counter': 0.1.3
-      webpack: 5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
+      webpack: 5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
 
   swr@2.3.4(react@19.2.3):
     dependencies:
@@ -39607,40 +40077,40 @@ snapshots:
 
   term-size@2.2.1: {}
 
-  terser-webpack-plugin@5.3.11(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack@5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)):
+  terser-webpack-plugin@5.3.11(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack@5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
       schema-utils: 4.3.0
       serialize-javascript: 6.0.2
       terser: 5.37.0
-      webpack: 5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)
+      webpack: 5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)
     optionalDependencies:
-      '@swc/core': 1.10.15(@swc/helpers@0.5.21)
+      '@swc/core': 1.15.33(@swc/helpers@0.5.21)
       esbuild: 0.27.4
 
-  terser-webpack-plugin@5.3.11(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack@5.97.1):
+  terser-webpack-plugin@5.3.11(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack@5.97.1):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
       schema-utils: 4.3.0
       serialize-javascript: 6.0.2
       terser: 5.37.0
-      webpack: 5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
+      webpack: 5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
     optionalDependencies:
-      '@swc/core': 1.10.15(@swc/helpers@0.5.21)
+      '@swc/core': 1.15.33(@swc/helpers@0.5.21)
       esbuild: 0.27.4
 
-  terser-webpack-plugin@5.3.16(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack@5.104.0(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)):
+  terser-webpack-plugin@5.3.16(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack@5.104.0(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       serialize-javascript: 6.0.2
       terser: 5.37.0
-      webpack: 5.104.0(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)
+      webpack: 5.104.0(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)
     optionalDependencies:
-      '@swc/core': 1.10.15(@swc/helpers@0.5.21)
+      '@swc/core': 1.15.33(@swc/helpers@0.5.21)
       esbuild: 0.27.4
 
   terser@5.37.0:
@@ -40145,7 +40615,7 @@ snapshots:
       commander: 11.1.0
       fs-extra: 11.3.0
       import-meta-resolve: 4.1.0
-      zod: 3.25.57
+      zod: 3.25.76
 
   vite-plugin-dts@4.2.3(@types/node@25.0.9)(rollup@4.56.0)(typescript@6.0.2)(vite@8.0.0(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)(@types/node@25.0.9)(esbuild@0.27.4)(jiti@2.7.0)(sass@1.97.2)(terser@5.37.0)(tsx@4.20.3)(yaml@2.8.1)):
     dependencies:
@@ -40459,12 +40929,12 @@ snapshots:
 
   webidl-conversions@8.0.0: {}
 
-  webpack-cli@5.1.4(webpack-dev-server@5.2.0)(webpack@5.97.1):
+  webpack-cli@5.1.4(webpack-dev-server@5.2.4)(webpack@5.97.1):
     dependencies:
       '@discoveryjs/json-ext': 0.5.7
       '@webpack-cli/configtest': 2.1.1(webpack-cli@5.1.4)(webpack@5.97.1)
       '@webpack-cli/info': 2.0.2(webpack-cli@5.1.4)(webpack@5.97.1)
-      '@webpack-cli/serve': 2.0.5(webpack-cli@5.1.4)(webpack-dev-server@5.2.0)(webpack@5.97.1)
+      '@webpack-cli/serve': 2.0.5(webpack-cli@5.1.4)(webpack-dev-server@5.2.4)(webpack@5.97.1)
       colorette: 2.0.20
       commander: 10.0.1
       cross-spawn: 7.0.6
@@ -40473,10 +40943,10 @@ snapshots:
       import-local: 3.2.0
       interpret: 3.1.1
       rechoir: 0.8.0
-      webpack: 5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
+      webpack: 5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
       webpack-merge: 5.10.0
     optionalDependencies:
-      webpack-dev-server: 5.2.0(webpack-cli@5.1.4)(webpack@5.97.1)
+      webpack-dev-server: 5.2.4(webpack-cli@5.1.4)(webpack@5.97.1)
 
   webpack-dev-middleware@7.4.2(webpack@5.97.1):
     dependencies:
@@ -40485,15 +40955,16 @@ snapshots:
       mime-types: 2.1.35
       on-finished: 2.4.1
       range-parser: 1.2.1
-      schema-utils: 4.3.0
+      schema-utils: 4.3.3
     optionalDependencies:
-      webpack: 5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
+      webpack: 5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
 
-  webpack-dev-server@5.2.0(webpack-cli@5.1.4)(webpack@5.97.1):
+  webpack-dev-server@5.2.4(webpack-cli@5.1.4)(webpack@5.97.1):
     dependencies:
       '@types/bonjour': 3.5.13
       '@types/connect-history-api-fallback': 1.5.4
-      '@types/express': 4.17.23
+      '@types/express': 4.17.25
+      '@types/express-serve-static-core': 4.19.6
       '@types/serve-index': 1.9.4
       '@types/serve-static': 1.15.7
       '@types/sockjs': 0.3.36
@@ -40502,25 +40973,25 @@ snapshots:
       bonjour-service: 1.3.0
       chokidar: 3.6.0
       colorette: 2.0.20
-      compression: 1.8.0
+      compression: 1.8.1
       connect-history-api-fallback: 2.0.0
-      express: 4.21.2
+      express: 4.22.2
       graceful-fs: 4.2.11
-      http-proxy-middleware: 2.0.7(@types/express@4.17.23)
+      http-proxy-middleware: 2.0.9(@types/express@4.17.25)
       ipaddr.js: 2.2.0
       launch-editor: 2.9.1
       open: 10.1.0
       p-retry: 6.2.1
-      schema-utils: 4.3.0
-      selfsigned: 2.4.1
+      schema-utils: 4.3.3
+      selfsigned: 5.5.0
       serve-index: 1.9.1
       sockjs: 0.3.24
       spdy: 4.0.2
       webpack-dev-middleware: 7.4.2(webpack@5.97.1)
-      ws: 8.18.0
+      ws: 8.20.0
     optionalDependencies:
-      webpack: 5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
-      webpack-cli: 5.1.4(webpack-dev-server@5.2.0)(webpack@5.97.1)
+      webpack: 5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4)
+      webpack-cli: 5.1.4(webpack-dev-server@5.2.4)(webpack@5.97.1)
     transitivePeerDependencies:
       - bufferutil
       - debug
@@ -40541,7 +41012,7 @@ snapshots:
 
   webpack-virtual-modules@0.6.2: {}
 
-  webpack@5.104.0(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4):
+  webpack@5.104.0(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4):
     dependencies:
       '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.8
@@ -40565,7 +41036,7 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 4.3.3
       tapable: 2.3.0
-      terser-webpack-plugin: 5.3.16(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack@5.104.0(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4))
+      terser-webpack-plugin: 5.3.16(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack@5.104.0(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4))
       watchpack: 2.4.4
       webpack-sources: 3.3.3
     transitivePeerDependencies:
@@ -40573,7 +41044,7 @@ snapshots:
       - esbuild
       - uglify-js
 
-  webpack@5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4):
+  webpack@5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4):
     dependencies:
       '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.7
@@ -40595,7 +41066,7 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.11(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack@5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4))
+      terser-webpack-plugin: 5.3.11(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack@5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4))
       watchpack: 2.4.2
       webpack-sources: 3.2.3
     transitivePeerDependencies:
@@ -40603,7 +41074,7 @@ snapshots:
       - esbuild
       - uglify-js
 
-  webpack@5.97.1(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4):
+  webpack@5.97.1(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack-cli@5.1.4):
     dependencies:
       '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.7
@@ -40625,11 +41096,11 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.11(@swc/core@1.10.15(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack@5.97.1)
+      terser-webpack-plugin: 5.3.11(@swc/core@1.15.33(@swc/helpers@0.5.21))(esbuild@0.27.4)(webpack@5.97.1)
       watchpack: 2.4.2
       webpack-sources: 3.2.3
     optionalDependencies:
-      webpack-cli: 5.1.4(webpack-dev-server@5.2.0)(webpack@5.97.1)
+      webpack-cli: 5.1.4(webpack-dev-server@5.2.4)(webpack@5.97.1)
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
@@ -40877,7 +41348,9 @@ snapshots:
 
   zod@3.25.57: {}
 
-  zod@4.1.12: {}
+  zod@3.25.76: {}
+
+  zod@4.4.3: {}
 
   zustand@5.0.12(@types/react@19.2.9)(immer@10.1.1)(react@19.2.3)(use-sync-external-store@1.6.0(react@19.2.3)):
     optionalDependencies:

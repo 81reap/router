@@ -1,5 +1,81 @@
 # @tanstack/router-plugin
 
+## 1.168.9
+
+### Patch Changes
+
+- Updated dependencies [[`7df0d02`](https://github.com/TanStack/router/commit/7df0d02bfb1407b1f07731ef69af24e2f0e415d7)]:
+  - @tanstack/router-generator@1.167.8
+
+## 1.168.8
+
+### Patch Changes
+
+- Updated dependencies [[`0300f87`](https://github.com/TanStack/router/commit/0300f87ec5a7f878ffbe0b181acf84cba9139960), [`0300f87`](https://github.com/TanStack/router/commit/0300f87ec5a7f878ffbe0b181acf84cba9139960)]:
+  - @tanstack/router-core@1.171.4
+  - @tanstack/react-router@1.170.6
+  - @tanstack/router-generator@1.167.7
+
+## 1.168.7
+
+### Patch Changes
+
+- Update chokidar to v5. ([#7439](https://github.com/TanStack/router/pull/7439))
+
+- Add deferred Hydrate boundary support for TanStack Start. ([#7362](https://github.com/TanStack/router/pull/7362))
+
+  Hydrate boundaries can now be code-split by the Start compiler, preload their generated client chunks, preserve server-rendered fallback HTML, and replay interaction-triggered events after hydration. The compiler integration now uses a Start-owned compiler plugin for Hydrate virtual modules across Vite and Rsbuild, with dev invalidation for generated virtual modules.
+
+  Shared AST utilities used by the router code-splitter and Hydrate virtual modules were moved into `@tanstack/router-utils` so both pipelines can retain referenced top-level declarations, unwrap local exports, and let dead-code elimination remove unused route module code.
+
+- Updated dependencies [[`5fa9e55`](https://github.com/TanStack/router/commit/5fa9e555f3a2edb5e45586623e6bcbfa7f7c7a6b)]:
+  - @tanstack/router-core@1.171.3
+  - @tanstack/router-utils@1.162.1
+  - @tanstack/react-router@1.170.5
+  - @tanstack/router-generator@1.167.6
+
+## 1.168.6
+
+### Patch Changes
+
+- Fix route mismatch warnings, HMR route index refresh, and generated route type preferences for duplicate pathless/index routes. ([#7422](https://github.com/TanStack/router/pull/7422))
+
+- Updated dependencies [[`b60eb36`](https://github.com/TanStack/router/commit/b60eb36e59e8a468ee0742cbcf7f47aca1ff1c67)]:
+  - @tanstack/router-core@1.171.2
+  - @tanstack/router-generator@1.167.5
+  - @tanstack/react-router@1.170.4
+
+## 1.168.5
+
+### Patch Changes
+
+- Fix Vite Fast Refresh detection for root routes created with `createRootRouteWithContext` type arguments. ([#7420](https://github.com/TanStack/router/pull/7420))
+
+## 1.168.4
+
+### Patch Changes
+
+- Updated dependencies [[`d9cf933`](https://github.com/TanStack/router/commit/d9cf9331b83fcbd2abfee75d839d862f9bb18e6b)]:
+  - @tanstack/router-core@1.171.1
+  - @tanstack/react-router@1.170.3
+  - @tanstack/router-generator@1.167.4
+
+## 1.168.3
+
+### Patch Changes
+
+- Updated dependencies [[`d533f87`](https://github.com/TanStack/router/commit/d533f87976704098a40b48f160b37c28c8182806)]:
+  - @tanstack/router-core@1.171.0
+  - @tanstack/react-router@1.170.2
+  - @tanstack/router-generator@1.167.3
+
+## 1.168.2
+
+### Patch Changes
+
+- Updated dependencies [[`742941e`](https://github.com/TanStack/router/commit/742941e2f1bf069c950d0a4985b2cd733639509e)]:
+  - @tanstack/router-generator@1.167.2
+
 ## 1.168.1
 
 ### Patch Changes

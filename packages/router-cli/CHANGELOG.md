@@ -1,5 +1,56 @@
 # @tanstack/router-cli
 
+## 1.167.8
+
+### Patch Changes
+
+- Updated dependencies [[`7df0d02`](https://github.com/TanStack/router/commit/7df0d02bfb1407b1f07731ef69af24e2f0e415d7)]:
+  - @tanstack/router-generator@1.167.8
+
+## 1.167.7
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @tanstack/router-generator@1.167.7
+
+## 1.167.6
+
+### Patch Changes
+
+- Update chokidar to v5. ([#7439](https://github.com/TanStack/router/pull/7439))
+
+- Updated dependencies []:
+  - @tanstack/router-generator@1.167.6
+
+## 1.167.5
+
+### Patch Changes
+
+- Updated dependencies [[`b60eb36`](https://github.com/TanStack/router/commit/b60eb36e59e8a468ee0742cbcf7f47aca1ff1c67)]:
+  - @tanstack/router-generator@1.167.5
+
+## 1.167.4
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @tanstack/router-generator@1.167.4
+
+## 1.167.3
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @tanstack/router-generator@1.167.3
+
+## 1.167.2
+
+### Patch Changes
+
+- Updated dependencies [[`742941e`](https://github.com/TanStack/router/commit/742941e2f1bf069c950d0a4985b2cd733639509e)]:
+  - @tanstack/router-generator@1.167.2
+
 ## 1.167.1
 
 ### Patch Changes
